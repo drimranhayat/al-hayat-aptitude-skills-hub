@@ -16,8 +16,8 @@
       "speed": "Normal",
       "mistakes": 8,
       "level": "Core",
-      "repairUrl": "/skills/logical-reasoning/assumption-reasoning/trap-options/",
-      "practiceUrl": "/practice/logical-reasoning/assumption-reasoning/?difficulty=Medium"
+      "repairUrl": "skills/logical-reasoning/assumption-reasoning/trap-options/",
+      "practiceUrl": "practice/logical-reasoning/assumption-reasoning/?difficulty=Medium"
     },
     {
       "id": "argument-analysis",
@@ -27,8 +27,8 @@
       "speed": "Slow",
       "mistakes": 5,
       "level": "Foundation",
-      "repairUrl": "/skills/logical-reasoning/argument-analysis/",
-      "practiceUrl": "/practice/?topic=argument-analysis"
+      "repairUrl": "skills/logical-reasoning/argument-analysis/",
+      "practiceUrl": "practice/?topic=argument-analysis"
     },
     {
       "id": "inference-reasoning",
@@ -38,8 +38,8 @@
       "speed": "Normal",
       "mistakes": 6,
       "level": "Foundation",
-      "repairUrl": "/skills/logical-reasoning/inference-reasoning/",
-      "practiceUrl": "/practice/?topic=inference-reasoning"
+      "repairUrl": "skills/logical-reasoning/inference-reasoning/",
+      "practiceUrl": "practice/?topic=inference-reasoning"
     }
   ],
   "strongSkills": ["Necessary Assumption", "Basic Argument Structure"],
@@ -53,7 +53,8 @@
   "nextStep": {
     "label": "Practice 5 medium questions on Necessary Assumption",
     "description": "Assumption Reasoning is 62% complete with 71% accuracy. The next repair target is medium Necessary Assumption practice.",
-    "url": "/practice/logical-reasoning/assumption-reasoning/?subTopic=necessary-assumption&difficulty=Medium"
+    "url": "practice/logical-reasoning/assumption-reasoning/?subTopic=necessary-assumption&difficulty=Medium"
   },
   "badges": ["Core Reasoner", "First Topic Complete", "Mistake Reviewer"]
 }
+

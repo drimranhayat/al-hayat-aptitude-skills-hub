@@ -24,6 +24,8 @@ import {
   topicNavigation
 } from "./components.js";
 
+import { fixInternalLinks, navigateTo } from "./path-utils.js";
+
 const state = {
   data: null,
   searchRecords: [],
@@ -70,7 +72,7 @@ function setupHeader() {
   searchForm?.addEventListener("submit", (event) => {
     event.preventDefault();
     const value = new FormData(searchForm).get("q")?.toString().trim() || "";
-    window.location.href = `/search/${value ? `?q=${encodeURIComponent(value)}` : ""}`;
+    navigateTo(`search/${value ? `?q=${encodeURIComponent(value)}` : ""}`);
   });
 
   document.addEventListener("submit", handleSubmit);
@@ -82,6 +84,7 @@ function renderRoute() {
   const parts = slugFromPathname();
   const app = document.querySelector("#app");
   setActiveNav(parts);
+  setTimeout(() => fixInternalLinks(document), 0);
 
   if (!parts.length) return renderHome(app);
   if (parts[0] === "skills" && parts.length === 1) return renderSkills(app);
@@ -99,7 +102,7 @@ function renderRoute() {
     <section class="notice-card">
       <h1>Page not found</h1>
       <p>This route is ready for future expansion. Start from Skills or Search to continue.</p>
-      <div class="card-actions">${actionLink("Explore Skills", "/skills/")}${actionLink("Search", "/search/", "secondary")}</div>
+      <div class="card-actions">${actionLink("Explore Skills", "skills/")}${actionLink("Search", "search/", "secondary")}</div>
     </section>
   `;
 }
@@ -108,8 +111,9 @@ function setActiveNav(parts) {
   const active = parts[0] || "";
   document.querySelectorAll(".site-nav a").forEach((link) => {
     const href = link.getAttribute("href") || "";
-    const target = href.replace(/^\/+|\/+$/g, "").split("/")[0] || "";
-    link.classList.toggle("is-active", active === target || (!active && href === "/"));
+    const targetUrl = new URL(href, document.baseURI);
+    const target = slugFromPathname(targetUrl.pathname)[0] || "";
+    link.classList.toggle("is-active", active === target || (!active && !target));
   });
 }
 
@@ -131,8 +135,8 @@ function renderHome(app) {
         <button type="submit">Search</button>
       </form>
       <div class="hero-actions">
-        ${actionLink("Start Free Diagnostic", "/mock-tests/#diagnostic")}
-        ${actionLink("Explore Skills", "/skills/", "secondary")}
+        ${actionLink("Start Free Diagnostic", "mock-tests/#diagnostic")}
+        ${actionLink("Explore Skills", "skills/", "secondary")}
       </div>
     </section>
 
@@ -165,7 +169,7 @@ function renderHome(app) {
           <h2>Skill Categories</h2>
           <p>Choose a skill area, study the next topic, then practice questions connected to that exact topic.</p>
         </div>
-        ${actionLink("All Skills", "/skills/", "secondary")}
+        ${actionLink("All Skills", "skills/", "secondary")}
       </div>
       <div class="grid three">${data.categories.map(skillCard).join("")}</div>
     </section>
@@ -286,14 +290,14 @@ function renderTopicDetail(app, categorySlug, topicSlug) {
       <div>
         <article class="study-card">
           <nav class="breadcrumb" aria-label="Breadcrumb">
-            <a href="/skills/">Skills</a><span>/</span><a href="${category.url}">${escapeHtml(category.name)}</a><span>/</span><span>${escapeHtml(topic.name)}</span>
+            <a href="skills/">Skills</a><span>/</span><a href="${category.url}">${escapeHtml(category.name)}</a><span>/</span><span>${escapeHtml(topic.name)}</span>
           </nav>
           <h1>${escapeHtml(topic.name)}</h1>
           <p class="muted">${escapeHtml(topic.description)}</p>
           ${progressBar(topic.progress)}
           <div class="bottom-next">
             ${actionLink("Practice Question Bank", topic.practiceUrl)}
-            ${actionLink("Mini Test", "/mock-tests/#assumption-mini-test", "secondary")}
+            ${actionLink("Mini Test", "mock-tests/#assumption-mini-test", "secondary")}
           </div>
         </article>
         <section class="section">
@@ -329,7 +333,7 @@ function renderStudyPage(app, categorySlug, topicSlug, subTopicSlug) {
       ${topicNavigation(topics, topic.id, subTopic.id)}
       <article class="study-card">
         <nav class="breadcrumb" aria-label="Breadcrumb">
-          <a href="/skills/">Skills</a><span>/</span><a href="${category.url}">${escapeHtml(category.name)}</a><span>/</span><a href="${topic.url}">${escapeHtml(topic.name)}</a><span>/</span><span>${escapeHtml(subTopic.name)}</span>
+          <a href="skills/">Skills</a><span>/</span><a href="${category.url}">${escapeHtml(category.name)}</a><span>/</span><a href="${topic.url}">${escapeHtml(topic.name)}</a><span>/</span><span>${escapeHtml(subTopic.name)}</span>
         </nav>
         <h1>${escapeHtml(subTopic.name)}</h1>
         <p class="muted">${escapeHtml(subTopic.description)}</p>
@@ -370,7 +374,7 @@ function renderStudyPage(app, categorySlug, topicSlug, subTopicSlug) {
         </section>
         <div class="bottom-next">
           ${actionLink("Practice This Topic", `${topic.practiceUrl}?subTopic=${subTopic.id}`)}
-          ${actionLink("Mini Test", "/mock-tests/#assumption-mini-test", "secondary")}
+          ${actionLink("Mini Test", "mock-tests/#assumption-mini-test", "secondary")}
           ${actionLink("Next Topic", study.nextUrl || topic.url, "secondary")}
         </div>
       </article>
@@ -485,7 +489,7 @@ function renderPracticeTopic(app, categorySlug, topicSlug) {
       <div>
         <article class="question-card">
           <nav class="breadcrumb" aria-label="Breadcrumb">
-            <a href="/skills/">Skills</a><span>/</span><a href="${category.url}">${escapeHtml(category.name)}</a><span>/</span><a href="${topic.url}">${escapeHtml(topic.name)}</a><span>/</span><span>Practice</span>
+            <a href="skills/">Skills</a><span>/</span><a href="${category.url}">${escapeHtml(category.name)}</a><span>/</span><a href="${topic.url}">${escapeHtml(topic.name)}</a><span>/</span><span>Practice</span>
           </nav>
           <h1>${escapeHtml(topic.name)} Practice</h1>
           ${current ? practiceQuestion(current, queue, topic) : `<p class="muted">No questions are available for this selection yet.</p>`}
@@ -650,7 +654,7 @@ function renderMockTests(app) {
           <span class="type-label">Diagnostic</span>
           <h3>Starter Diagnostic</h3>
           <p>A future entry test that can recommend the first skill path.</p>
-          <div class="card-actions">${actionLink("Start Diagnostic", "/practice/")}</div>
+          <div class="card-actions">${actionLink("Start Diagnostic", "practice/")}</div>
         </article>
         <article class="test-card" id="assumption-mini-test">
           <span class="type-label">Mini Test</span>
@@ -676,19 +680,19 @@ function renderResources(app) {
           <span class="type-label">Guide</span>
           <h3>How to Use Assumption Practice</h3>
           <p>Study the topic, answer questions, then open explanations only when needed.</p>
-          <div class="card-actions">${actionLink("Study Topic", "/skills/logical-reasoning/assumption-reasoning/necessary-assumption/")}</div>
+          <div class="card-actions">${actionLink("Study Topic", "skills/logical-reasoning/assumption-reasoning/necessary-assumption/")}</div>
         </article>
         <article class="resource-card">
           <span class="type-label">Worksheet</span>
           <h3>Future Printable Worksheet</h3>
           <p>A placeholder for downloadable topic-wise worksheets.</p>
-          <div class="card-actions">${actionLink("Practice Online", "/practice/logical-reasoning/assumption-reasoning/", "secondary")}</div>
+          <div class="card-actions">${actionLink("Practice Online", "practice/logical-reasoning/assumption-reasoning/", "secondary")}</div>
         </article>
         <article class="resource-card">
           <span class="type-label">Teacher Resource</span>
           <h3>Classroom Repair Plan</h3>
           <p>Future teacher guidance can connect weak topics to repair practice.</p>
-          <div class="card-actions">${actionLink("View Progress", "/progress/", "secondary")}</div>
+          <div class="card-actions">${actionLink("View Progress", "progress/", "secondary")}</div>
         </article>
       </div>
     </section>
@@ -730,7 +734,7 @@ function renderMissing(app, label) {
     <section class="notice-card">
       <h1>${label} not found</h1>
       <p>The route exists for future expansion, but matching data has not been added yet.</p>
-      <div class="card-actions">${actionLink("Back to Skills", "/skills/")}${actionLink("Search", "/search/", "secondary")}</div>
+      <div class="card-actions">${actionLink("Back to Skills", "skills/")}${actionLink("Search", "search/", "secondary")}</div>
     </section>
   `;
 }
@@ -740,7 +744,7 @@ function handleSubmit(event) {
   if (pageSearch) {
     event.preventDefault();
     const value = new FormData(pageSearch).get("q")?.toString().trim() || "";
-    window.location.href = `/search/${value ? `?q=${encodeURIComponent(value)}` : ""}`;
+    navigateTo(`search/${value ? `?q=${encodeURIComponent(value)}` : ""}`);
     return;
   }
 
@@ -794,5 +798,5 @@ function handleChange(event) {
   for (const [key, value] of [...params.entries()]) {
     if (!value || value === "all") params.delete(key);
   }
-  window.location.href = `/practice/${params.toString() ? `?${params.toString()}` : ""}`;
+  navigateTo(`practice/${params.toString() ? `?${params.toString()}` : ""}`);
 }

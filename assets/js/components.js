@@ -1,3 +1,5 @@
+import { siteUrl } from "./path-utils.js";
+
 export function escapeHtml(value = "") {
   return String(value)
     .replaceAll("&", "&amp;")
@@ -20,7 +22,7 @@ export function pill(text, tone = "") {
 }
 
 export function actionLink(label, href, variant = "") {
-  return `<a class="button ${variant}" href="${escapeHtml(href)}">${escapeHtml(label)}</a>`;
+  return `<a class="button ${variant}" href="${escapeHtml(siteUrl(href))}">${escapeHtml(label)}</a>`;
 }
 
 export function skillCard(category) {
@@ -39,7 +41,7 @@ export function skillCard(category) {
       </div>
       <div class="card-actions">
         ${actionLink(category.progress > 0 ? "Continue" : "Start", category.url)}
-        ${actionLink("Practice", category.practiceUrl || "/practice/", "secondary")}
+        ${actionLink("Practice", category.practiceUrl || "practice/", "secondary")}
       </div>
     </article>
   `;
@@ -57,7 +59,7 @@ export function topicCard(topic, label = "Study Topic") {
       ${progressBar(topic.progress || 0)}
       <div class="card-actions">
         ${actionLink(label, topic.url)}
-        ${actionLink("Practice Questions", topic.practiceUrl || "/practice/", "secondary")}
+        ${actionLink("Practice Questions", topic.practiceUrl || "practice/", "secondary")}
       </div>
     </article>
   `;
@@ -105,11 +107,11 @@ export function topicNavigation(topics, activeTopicId, activeSubTopicId = "") {
         <ul class="topic-list">
           ${topics.map((topic) => `
             <li>
-              <a class="${topic.id === activeTopicId && !activeSubTopicId ? "is-active" : ""}" href="${topic.url}">${escapeHtml(topic.name)}</a>
+              <a class="${topic.id === activeTopicId && !activeSubTopicId ? "is-active" : ""}" href="${escapeHtml(siteUrl(topic.url))}">${escapeHtml(topic.name)}</a>
               ${(topic.subTopics || []).length ? `
                 <ul class="topic-list">
                   ${topic.subTopics.map((subTopic) => `
-                    <li><a class="${subTopic.id === activeSubTopicId ? "is-active" : ""}" href="${subTopic.url}">${escapeHtml(subTopic.name)}</a></li>
+                    <li><a class="${subTopic.id === activeSubTopicId ? "is-active" : ""}" href="${escapeHtml(siteUrl(subTopic.url))}">${escapeHtml(subTopic.name)}</a></li>
                   `).join("")}
                 </ul>
               ` : ""}
@@ -149,7 +151,7 @@ export function bankQuestionCard(question, topic) {
       </div>
       <p>${escapeHtml(question.questionText)}</p>
       <div class="card-actions">
-        ${actionLink("Practice", `${topic?.practiceUrl || "/practice/"}?question=${question.id}`)}
+        ${actionLink("Practice", `${topic?.practiceUrl || "practice/"}?question=${question.id}`)}
         ${actionLink("Learn This Topic", question.learnMoreUrl, "secondary")}
       </div>
     </article>

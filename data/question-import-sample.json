@@ -35,10 +35,11 @@
       },
       "commonMistake": "Name the likely mistake pattern.",
       "similarQuestionIds": [],
-      "learnMoreUrl": "/skills/logical-reasoning/assumption-reasoning/necessary-assumption/",
+      "learnMoreUrl": "skills/logical-reasoning/assumption-reasoning/necessary-assumption/",
       "examTags": ["Admissions aptitude"],
       "status": "New",
       "keywords": ["assumption", "logical reasoning"]
     }
   ]
 }
+

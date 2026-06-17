@@ -10,8 +10,8 @@
       "description": "Separate conclusion, evidence, context, and assumptions before choosing an answer.",
       "level": "Foundation",
       "progress": 38,
-      "url": "/skills/logical-reasoning/argument-analysis/",
-      "practiceUrl": "/practice/?topic=argument-analysis",
+      "url": "skills/logical-reasoning/argument-analysis/",
+      "practiceUrl": "practice/?topic=argument-analysis",
       "keywords": ["claim", "evidence", "conclusion"],
       "subTopics": []
     },
@@ -24,8 +24,8 @@
       "description": "Find the unstated idea that connects evidence to a conclusion.",
       "level": "Core",
       "progress": 62,
-      "url": "/skills/logical-reasoning/assumption-reasoning/",
-      "practiceUrl": "/practice/logical-reasoning/assumption-reasoning/",
+      "url": "skills/logical-reasoning/assumption-reasoning/",
+      "practiceUrl": "practice/logical-reasoning/assumption-reasoning/",
       "recommendedSubTopic": "Necessary Assumption",
       "keywords": ["necessary assumption", "hidden assumption", "missing link", "trap options"],
       "subTopics": [
@@ -36,7 +36,7 @@
           "description": "Understand the hidden idea an argument depends on.",
           "level": "Foundation",
           "progress": 78,
-          "url": "/skills/logical-reasoning/assumption-reasoning/what-is-an-assumption/",
+          "url": "skills/logical-reasoning/assumption-reasoning/what-is-an-assumption/",
           "keywords": ["unstated idea", "argument depends"],
           "study": {
             "simpleMeaning": "An assumption is an unstated idea that the argument treats as true.",
@@ -54,7 +54,7 @@
               "assumption": "Dim corridors contribute to late arrivals",
               "conclusion": "Late arrivals will decrease"
             },
-            "nextUrl": "/skills/logical-reasoning/assumption-reasoning/necessary-assumption/"
+            "nextUrl": "skills/logical-reasoning/assumption-reasoning/necessary-assumption/"
           }
         },
         {
@@ -64,7 +64,7 @@
           "description": "Identify what must be true for the argument to work.",
           "level": "Core",
           "progress": 62,
-          "url": "/skills/logical-reasoning/assumption-reasoning/necessary-assumption/",
+          "url": "skills/logical-reasoning/assumption-reasoning/necessary-assumption/",
           "keywords": ["must be true", "depends on", "negation test"],
           "study": {
             "simpleMeaning": "A necessary assumption is an unstated idea that must be true for the argument to work.",
@@ -82,7 +82,7 @@
               "assumption": "Renewals cause many front-desk visits",
               "conclusion": "Front-desk lines will shrink"
             },
-            "nextUrl": "/skills/logical-reasoning/assumption-reasoning/missing-link/"
+            "nextUrl": "skills/logical-reasoning/assumption-reasoning/missing-link/"
           }
         },
         {
@@ -92,7 +92,7 @@
           "description": "Bridge the gap between evidence and conclusion.",
           "level": "Core",
           "progress": 54,
-          "url": "/skills/logical-reasoning/assumption-reasoning/missing-link/",
+          "url": "skills/logical-reasoning/assumption-reasoning/missing-link/",
           "keywords": ["gap", "bridge", "link"],
           "study": {
             "simpleMeaning": "A missing link is the bridge the writer forgot to state.",
@@ -110,7 +110,7 @@
               "assumption": "Forgetfulness blocks completion",
               "conclusion": "More sessions completed"
             },
-            "nextUrl": "/skills/logical-reasoning/assumption-reasoning/trap-options/"
+            "nextUrl": "skills/logical-reasoning/assumption-reasoning/trap-options/"
           }
         },
         {
@@ -120,7 +120,7 @@
           "description": "Spot answers that sound helpful but are not necessary.",
           "level": "Core",
           "progress": 47,
-          "url": "/skills/logical-reasoning/assumption-reasoning/trap-options/",
+          "url": "skills/logical-reasoning/assumption-reasoning/trap-options/",
           "keywords": ["trap", "wrong options", "too strong"],
           "study": {
             "simpleMeaning": "Trap options are attractive choices that do not actually hold the argument together.",
@@ -138,7 +138,7 @@
               "assumption": "Shorter videos reduce total training time",
               "conclusion": "Training finishes faster"
             },
-            "nextUrl": "/skills/logical-reasoning/assumption-reasoning/assumption-vs-inference/"
+            "nextUrl": "skills/logical-reasoning/assumption-reasoning/assumption-vs-inference/"
           }
         },
         {
@@ -148,7 +148,7 @@
           "description": "Tell the difference between what must be true before the conclusion and what follows after the facts.",
           "level": "Core",
           "progress": 41,
-          "url": "/skills/logical-reasoning/assumption-reasoning/assumption-vs-inference/",
+          "url": "skills/logical-reasoning/assumption-reasoning/assumption-vs-inference/",
           "keywords": ["inference", "assumption", "difference"],
           "study": {
             "simpleMeaning": "An assumption supports the argument from underneath. An inference is a conclusion you can draw from stated facts.",
@@ -166,7 +166,7 @@
               "assumption": "Daytime-only access causes missed appointments",
               "conclusion": "Missed appointments decline"
             },
-            "nextUrl": "/practice/logical-reasoning/assumption-reasoning/"
+            "nextUrl": "practice/logical-reasoning/assumption-reasoning/"
           }
         }
       ]
@@ -180,8 +180,8 @@
       "description": "Choose what follows from the facts without adding outside assumptions.",
       "level": "Foundation",
       "progress": 25,
-      "url": "/skills/logical-reasoning/inference-reasoning/",
-      "practiceUrl": "/practice/?topic=inference-reasoning",
+      "url": "skills/logical-reasoning/inference-reasoning/",
+      "practiceUrl": "practice/?topic=inference-reasoning",
       "keywords": ["must be true", "supported inference"],
       "subTopics": []
     },
@@ -194,8 +194,8 @@
       "description": "Find evidence that makes an argument stronger or weaker.",
       "level": "Core",
       "progress": 19,
-      "url": "/skills/logical-reasoning/strengthen-weaken-arguments/",
-      "practiceUrl": "/practice/?topic=strengthen-weaken-arguments",
+      "url": "skills/logical-reasoning/strengthen-weaken-arguments/",
+      "practiceUrl": "practice/?topic=strengthen-weaken-arguments",
       "keywords": ["strengthen", "weaken", "evidence"],
       "subTopics": []
     },
@@ -208,8 +208,8 @@
       "description": "Recognize flawed reasoning patterns and tempting invalid conclusions.",
       "level": "Foundation",
       "progress": 13,
-      "url": "/skills/logical-reasoning/logical-fallacies/",
-      "practiceUrl": "/practice/?topic=logical-fallacies",
+      "url": "skills/logical-reasoning/logical-fallacies/",
+      "practiceUrl": "practice/?topic=logical-fallacies",
       "keywords": ["fallacy", "flaw", "invalid"],
       "subTopics": []
     },
@@ -222,10 +222,11 @@
       "description": "Evaluate causal claims, alternate causes, and correlation traps.",
       "level": "Core",
       "progress": 16,
-      "url": "/skills/logical-reasoning/cause-and-effect/",
-      "practiceUrl": "/practice/?topic=cause-and-effect",
+      "url": "skills/logical-reasoning/cause-and-effect/",
+      "practiceUrl": "practice/?topic=cause-and-effect",
       "keywords": ["cause", "effect", "correlation"],
       "subTopics": []
     }
   ]
 }
+

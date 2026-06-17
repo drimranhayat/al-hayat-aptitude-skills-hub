@@ -1,9 +1,11 @@
+import { siteUrl, stripBasePath } from "./path-utils.js";
+
 const DATA_FILES = {
-  skills: "/data/skills.json",
-  topics: "/data/topics.json",
-  questions: "/data/questions.json",
-  search: "/data/search-index.json",
-  progress: "/data/progress-sample.json"
+  skills: "data/skills.json",
+  topics: "data/topics.json",
+  questions: "data/questions.json",
+  search: "data/search-index.json",
+  progress: "data/progress-sample.json"
 };
 
 const REQUIRED_QUESTION_FIELDS = [
@@ -48,7 +50,7 @@ export async function loadSiteData() {
 }
 
 async function fetchJson(path) {
-  const response = await fetch(path);
+  const response = await fetch(siteUrl(path));
   if (!response.ok) {
     throw new Error(`Could not load ${path}: ${response.status}`);
   }
@@ -113,8 +115,8 @@ function validateQuestion(question, seen) {
     return { ok: false, reason: "shortExplanation must be text." };
   }
 
-  if (!question.learnMoreUrl || !question.learnMoreUrl.startsWith("/")) {
-    return { ok: false, reason: "learnMoreUrl must be a root-relative URL." };
+  if (!question.learnMoreUrl || /^(https?:|mailto:|tel:)/i.test(question.learnMoreUrl)) {
+    return { ok: false, reason: "learnMoreUrl must be a site-relative URL." };
   }
 
   return { ok: true };
@@ -165,7 +167,7 @@ function enrichCounts(skillsData, topicsData, questions) {
 }
 
 export function slugFromPathname(pathname = window.location.pathname) {
-  return pathname
+  return stripBasePath(pathname)
     .replace(/\/index\.html$/, "/")
     .replace(/^\/+|\/+$/g, "")
     .split("/")
@@ -208,7 +210,7 @@ export function buildSearchRecords(data) {
       keywords: [category.name, category.description, category.level, "skill category"],
       actions: [
         { label: "Study Skill", href: category.url },
-        { label: "Practice Questions", href: category.practiceUrl || "/practice/" }
+        { label: "Practice Questions", href: category.practiceUrl || "practice/" }
       ]
     });
   }
@@ -225,7 +227,7 @@ export function buildSearchRecords(data) {
       keywords: [skill.name, skill.description, skill.level, "skill"],
       actions: [
         { label: "Related Skill", href: skill.url },
-        { label: "Practice Bank", href: skill.practiceUrl || "/practice/" }
+        { label: "Practice Bank", href: skill.practiceUrl || "practice/" }
       ]
     });
   }
@@ -280,7 +282,7 @@ export function buildSearchRecords(data) {
       id: `question-${question.id}`,
       type: "Question",
       title: `Practice question: ${subTopic?.name || question.subTopic}`,
-      path: `${topic?.practiceUrl || "/practice/"}?question=${question.id}`,
+      path: `${topic?.practiceUrl || "practice/"}?question=${question.id}`,
       skillPath: `${category?.name || question.skillCategory} > ${skill?.name || question.skill} > ${topic?.name || question.topic} > ${subTopic?.name || question.subTopic}`,
       description: question.questionText,
       keywords: [
@@ -294,7 +296,7 @@ export function buildSearchRecords(data) {
         ...(question.examTags || [])
       ],
       actions: [
-        { label: "Practice Questions", href: `${topic?.practiceUrl || "/practice/"}?question=${question.id}` },
+        { label: "Practice Questions", href: `${topic?.practiceUrl || "practice/"}?question=${question.id}` },
         { label: "Study Topic", href: question.learnMoreUrl }
       ]
     });

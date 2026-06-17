@@ -9,8 +9,8 @@
       "description": "Build vocabulary, sentence clarity, verbal logic, and meaning-based reasoning.",
       "level": "Starter",
       "progress": 12,
-      "url": "/skills/",
-      "practiceUrl": "/practice/?skillCategory=verbal-skills",
+      "url": "skills/",
+      "practiceUrl": "practice/?skillCategory=verbal-skills",
       "recommendedNextTopic": "Vocabulary in Context"
     },
     {
@@ -20,8 +20,8 @@
       "description": "Improve comprehension, main idea detection, detail tracking, and inference from passages.",
       "level": "Starter",
       "progress": 9,
-      "url": "/skills/",
-      "practiceUrl": "/practice/?skillCategory=reading-skills",
+      "url": "skills/",
+      "practiceUrl": "practice/?skillCategory=reading-skills",
       "recommendedNextTopic": "Main Idea"
     },
     {
@@ -31,8 +31,8 @@
       "description": "Practice grammar, structure, editing, sentence correction, and concise expression.",
       "level": "Starter",
       "progress": 7,
-      "url": "/skills/",
-      "practiceUrl": "/practice/?skillCategory=writing-skills",
+      "url": "skills/",
+      "practiceUrl": "practice/?skillCategory=writing-skills",
       "recommendedNextTopic": "Sentence Clarity"
     },
     {
@@ -42,8 +42,8 @@
       "description": "Understand arguments, assumptions, inferences, fallacies, and cause-effect reasoning.",
       "level": "Core",
       "progress": 62,
-      "url": "/skills/logical-reasoning/",
-      "practiceUrl": "/practice/logical-reasoning/assumption-reasoning/",
+      "url": "skills/logical-reasoning/",
+      "practiceUrl": "practice/logical-reasoning/assumption-reasoning/",
       "recommendedNextTopic": "Necessary Assumption"
     },
     {
@@ -53,8 +53,8 @@
       "description": "Solve conditions, arrangements, comparisons, grouping, and rule-based logic sets.",
       "level": "Foundation",
       "progress": 21,
-      "url": "/skills/",
-      "practiceUrl": "/practice/?skillCategory=analytical-reasoning",
+      "url": "skills/",
+      "practiceUrl": "practice/?skillCategory=analytical-reasoning",
       "recommendedNextTopic": "Ordering Rules"
     },
     {
@@ -64,8 +64,8 @@
       "description": "Strengthen arithmetic, algebra, ratios, percentages, rates, and problem solving.",
       "level": "Foundation",
       "progress": 18,
-      "url": "/skills/",
-      "practiceUrl": "/practice/?skillCategory=quantitative-skills",
+      "url": "skills/",
+      "practiceUrl": "practice/?skillCategory=quantitative-skills",
       "recommendedNextTopic": "Percent Change"
     },
     {
@@ -75,8 +75,8 @@
       "description": "Read tables, charts, graphs, data sufficiency prompts, and trend-based questions.",
       "level": "Starter",
       "progress": 14,
-      "url": "/skills/",
-      "practiceUrl": "/practice/?skillCategory=data-skills",
+      "url": "skills/",
+      "practiceUrl": "practice/?skillCategory=data-skills",
       "recommendedNextTopic": "Table Reading"
     },
     {
@@ -86,8 +86,8 @@
       "description": "Practice patterns, matrices, spatial reasoning, analogies, and visual sequences.",
       "level": "Starter",
       "progress": 11,
-      "url": "/skills/",
-      "practiceUrl": "/practice/?skillCategory=non-verbal-reasoning",
+      "url": "skills/",
+      "practiceUrl": "practice/?skillCategory=non-verbal-reasoning",
       "recommendedNextTopic": "Pattern Series"
     },
     {
@@ -97,8 +97,8 @@
       "description": "Evaluate professional scenarios, priorities, ethics, teamwork, and decision quality.",
       "level": "Starter",
       "progress": 8,
-      "url": "/skills/",
-      "practiceUrl": "/practice/?skillCategory=situational-judgement",
+      "url": "skills/",
+      "practiceUrl": "practice/?skillCategory=situational-judgement",
       "recommendedNextTopic": "Priority Choices"
     },
     {
@@ -108,8 +108,8 @@
       "description": "Reason about systems, scientific information, digital logic, and evidence-based claims.",
       "level": "Starter",
       "progress": 6,
-      "url": "/skills/",
-      "practiceUrl": "/practice/?skillCategory=digital-scientific-reasoning",
+      "url": "skills/",
+      "practiceUrl": "practice/?skillCategory=digital-scientific-reasoning",
       "recommendedNextTopic": "Evidence Claims"
     }
   ],
@@ -122,8 +122,9 @@
       "description": "Learn how claims, evidence, hidden assumptions, and conclusions work together in aptitude arguments.",
       "level": "Core",
       "progress": 62,
-      "url": "/skills/logical-reasoning/",
-      "practiceUrl": "/practice/logical-reasoning/assumption-reasoning/"
+      "url": "skills/logical-reasoning/",
+      "practiceUrl": "practice/logical-reasoning/assumption-reasoning/"
     }
   ]
 }
+

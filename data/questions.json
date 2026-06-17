@@ -35,7 +35,7 @@
       },
       "commonMistake": "Choosing a generally positive detail instead of the required bridge.",
       "similarQuestionIds": ["lr-ar-assump-004", "lr-ar-assump-007"],
-      "learnMoreUrl": "/skills/logical-reasoning/assumption-reasoning/necessary-assumption/",
+      "learnMoreUrl": "skills/logical-reasoning/assumption-reasoning/necessary-assumption/",
       "examTags": ["Admissions aptitude", "Corporate hiring"],
       "status": "New",
       "keywords": ["library", "renewal", "front desk", "line", "necessary assumption"]
@@ -73,7 +73,7 @@
       },
       "commonMistake": "Focusing on cafeteria operations instead of the reason students behave a certain way.",
       "similarQuestionIds": ["lr-ar-assump-003", "lr-ar-assump-005"],
-      "learnMoreUrl": "/skills/logical-reasoning/assumption-reasoning/what-is-an-assumption/",
+      "learnMoreUrl": "skills/logical-reasoning/assumption-reasoning/what-is-an-assumption/",
       "examTags": ["Scholarship screening", "Admissions aptitude"],
       "status": "Attempted",
       "keywords": ["cafeteria", "vegetarian", "home lunch", "assumption"]
@@ -111,7 +111,7 @@
       },
       "commonMistake": "Choosing a likable benefit, such as preference, instead of the time bridge.",
       "similarQuestionIds": ["lr-ar-assump-002", "lr-ar-assump-006"],
-      "learnMoreUrl": "/skills/logical-reasoning/assumption-reasoning/trap-options/",
+      "learnMoreUrl": "skills/logical-reasoning/assumption-reasoning/trap-options/",
       "examTags": ["Corporate hiring", "Professional assessments"],
       "status": "Wrong",
       "keywords": ["training", "video", "faster", "trap option"]
@@ -149,7 +149,7 @@
       },
       "commonMistake": "Selecting a positive learning outcome instead of the cause addressed by the evidence.",
       "similarQuestionIds": ["lr-ar-assump-001", "lr-ar-assump-008"],
-      "learnMoreUrl": "/skills/logical-reasoning/assumption-reasoning/missing-link/",
+      "learnMoreUrl": "skills/logical-reasoning/assumption-reasoning/missing-link/",
       "examTags": ["Admissions aptitude", "Scholarship screening"],
       "status": "Bookmarked",
       "keywords": ["study app", "reminders", "practice sessions", "missing link"]
@@ -187,7 +187,7 @@
       },
       "commonMistake": "Choosing an inference that follows from the facts instead of the assumption that supports the prediction.",
       "similarQuestionIds": ["lr-ar-assump-002", "lr-ar-assump-004"],
-      "learnMoreUrl": "/skills/logical-reasoning/assumption-reasoning/assumption-vs-inference/",
+      "learnMoreUrl": "skills/logical-reasoning/assumption-reasoning/assumption-vs-inference/",
       "examTags": ["Professional assessments", "Corporate hiring"],
       "status": "New",
       "keywords": ["clinic", "evening appointments", "missed appointments", "inference"]
@@ -225,7 +225,7 @@
       },
       "commonMistake": "Choosing an extreme statement that overstates what the argument needs.",
       "similarQuestionIds": ["lr-ar-assump-003", "lr-ar-assump-008"],
-      "learnMoreUrl": "/skills/logical-reasoning/assumption-reasoning/necessary-assumption/",
+      "learnMoreUrl": "skills/logical-reasoning/assumption-reasoning/necessary-assumption/",
       "examTags": ["Admissions aptitude", "Professional assessments"],
       "status": "Attempted",
       "keywords": ["tutoring", "parents", "attendance", "necessary assumption"]
@@ -263,7 +263,7 @@
       },
       "commonMistake": "Treating any benefit of electric buses as relevant to the exact cost claim.",
       "similarQuestionIds": ["lr-ar-assump-001", "lr-ar-assump-006"],
-      "learnMoreUrl": "/skills/logical-reasoning/assumption-reasoning/necessary-assumption/",
+      "learnMoreUrl": "skills/logical-reasoning/assumption-reasoning/necessary-assumption/",
       "examTags": ["Corporate hiring", "Military selection"],
       "status": "New",
       "keywords": ["electric buses", "diesel", "fuel spending", "necessary"]
@@ -301,10 +301,11 @@
       },
       "commonMistake": "Confusing a tool feature with the specific problem the tool must solve.",
       "similarQuestionIds": ["lr-ar-assump-004", "lr-ar-assump-006"],
-      "learnMoreUrl": "/skills/logical-reasoning/assumption-reasoning/missing-link/",
+      "learnMoreUrl": "skills/logical-reasoning/assumption-reasoning/missing-link/",
       "examTags": ["Corporate hiring", "Professional assessments"],
       "status": "Mastered",
       "keywords": ["task board", "deadline", "ownership", "missing link"]
     }
   ]
 }
+
