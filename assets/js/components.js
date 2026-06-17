@@ -25,6 +25,75 @@ export function actionLink(label, href, variant = "") {
   return `<a class="button ${variant}" href="${escapeHtml(siteUrl(href))}">${escapeHtml(label)}</a>`;
 }
 
+function isMobileViewport() {
+  if (typeof window === "undefined") return false;
+  return window.matchMedia("(max-width: 768px)").matches;
+}
+
+function collapsibleDetailsAttrs(label) {
+  const mobile = isMobileViewport();
+
+  return {
+    openAttr: mobile ? "" : " open",
+    icon: mobile ? "+" : "−",
+    expanded: mobile ? "false" : "true",
+    ariaLabel: mobile ? `Expand ${label}` : `Collapse ${label}`
+  };
+}
+
+export function setupMobileOnlyCollapsibles() {
+  const mobileQuery = window.matchMedia("(max-width: 768px)");
+
+  function syncDetails(details, forceDefault = false) {
+    const summary = details.querySelector("summary");
+    const icon = details.querySelector(".collapse-icon");
+    const label = details.dataset.label || "section";
+    const isMobile = mobileQuery.matches;
+
+    if (forceDefault) {
+      if (isMobile) {
+        details.removeAttribute("open");
+      } else {
+        details.setAttribute("open", "");
+      }
+    }
+
+    const isOpen = details.hasAttribute("open");
+
+    if (icon) {
+      icon.textContent = isOpen ? "−" : "+";
+    }
+
+    if (summary) {
+      summary.setAttribute("aria-expanded", String(isOpen));
+      summary.setAttribute(
+        "aria-label",
+        isOpen ? `Collapse ${label}` : `Expand ${label}`
+      );
+    }
+  }
+
+  document.querySelectorAll("details.mobile-only-collapse").forEach((details) => {
+    if (details.dataset.collapsibleReady === "true") return;
+
+    details.dataset.collapsibleReady = "true";
+
+    syncDetails(details, true);
+
+    details.addEventListener("toggle", () => {
+      syncDetails(details, false);
+    });
+  });
+
+  mobileQuery.addEventListener?.("change", () => {
+    document.querySelectorAll("details.mobile-only-collapse").forEach((details) => {
+      syncDetails(details, true);
+    });
+  });
+}
+
+document.addEventListener("DOMContentLoaded", setupMobileOnlyCollapsibles);
+
 export function skillCard(category) {
   return `
     <article class="skill-card">
@@ -100,10 +169,15 @@ export function searchResultCard(result) {
 }
 
 export function topicNavigation(topics, activeTopicId, activeSubTopicId = "") {
+  const panel = collapsibleDetailsAttrs("Topic Navigation");
+
   return `
     <aside class="topic-nav" aria-label="Topic navigation">
-      <details open>
-        <summary>Topic Navigation</summary>
+      <details class="mobile-only-collapse"${panel.openAttr} data-label="Topic Navigation">
+        <summary aria-expanded="${panel.expanded}" aria-label="${escapeHtml(panel.ariaLabel)}">
+          <span>Topic Navigation</span>
+          <span class="collapse-icon" aria-hidden="true">${panel.icon}</span>
+        </summary>
         <ul class="topic-list">
           ${topics.map((topic) => `
             <li>
@@ -124,10 +198,15 @@ export function topicNavigation(topics, activeTopicId, activeSubTopicId = "") {
 }
 
 export function quietTools(items) {
+  const panel = collapsibleDetailsAttrs("Quiet Tools");
+
   return `
     <aside class="tool-panel" aria-label="Quiet learning tools">
-      <details open>
-        <summary>Quiet Tools</summary>
+      <details class="mobile-only-collapse"${panel.openAttr} data-label="Quiet Tools">
+        <summary aria-expanded="${panel.expanded}" aria-label="${escapeHtml(panel.ariaLabel)}">
+          <span>Quiet Tools</span>
+          <span class="collapse-icon" aria-hidden="true">${panel.icon}</span>
+        </summary>
         <div class="tool-stack">
           ${items.map((item) => `
             <div class="tool-item">
