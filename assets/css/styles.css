@@ -22,6 +22,44 @@
   color: var(--gray-900);
   background: var(--gray-50);
 }
+.mobile-only-collapse > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+.mobile-only-collapse > summary::-webkit-details-marker {
+  display: none;
+}
+
+.collapse-icon {
+  font-size: 1.4rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+@media (min-width: 769px) {
+  .mobile-only-collapse[open] > summary .collapse-icon {
+    content: "−";
+  }
+
+  .mobile-only-collapse > summary {
+    cursor: default;
+  }
+}
+
+@media (max-width: 768px) {
+  .mobile-only-collapse > summary {
+    padding: 0.25rem 0;
+  }
+
+  .collapse-icon {
+    font-size: 1.6rem;
+  }
+}
 
 * {
   box-sizing: border-box;
