@@ -58,61 +58,7 @@
           ]
         }
       },
-      "subTopics": [
-        {
-          "id": "vocabulary-reasoning",
-          "slug": "vocabulary-reasoning",
-          "name": "Vocabulary Reasoning",
-          "description": "Use context, tone, and clue words to infer precise word meaning.",
-          "level": "Core",
-          "progress": 34,
-          "url": "skills/verbal-skills/vocabulary-reasoning/",
-          "keywords": [
-            "context vocabulary",
-            "word meaning",
-            "connotation",
-            "clue words"
-          ],
-          "study": {
-            "simpleMeaning": "Vocabulary reasoning means finding a word's meaning from its sentence, tone, and surrounding clues.",
-            "whyItMatters": "Aptitude tests often use familiar-looking words in precise contexts. Strong learners do not guess from memory alone; they prove meaning from the sentence.",
-            "strategy": [
-              "Locate the target word and decide whether the sentence gives a definition, contrast, example, or cause.",
-              "Replace the word with a plain meaning and test whether the sentence still makes sense.",
-              "Check tone: positive, negative, neutral, formal, or cautious.",
-              "Reject choices that are related to the topic but do not fit the exact context."
-            ],
-            "solvedExample": {
-              "prompt": "The manager gave a candid report, admitting both the success and the delays.",
-              "answer": "Candid means honest and direct.",
-              "explanation": "The clue is admitting both success and delays. That points to openness, not politeness or speed."
-            },
-            "commonTraps": [
-              "Choosing a word that matches the subject but not the sentence logic.",
-              "Ignoring contrast words such as however, although, yet, and despite.",
-              "Choosing the strongest word when the sentence needs a moderate one."
-            ],
-            "tip": "Before reading the options, say the meaning in your own simple words.",
-            "visual": {
-              "ariaLabel": "Verbal skill learning flow",
-              "nodes": [
-                {
-                  "label": "Context Clue",
-                  "text": "Signal words and sentence tone"
-                },
-                {
-                  "label": "Plain Meaning",
-                  "text": "Your own simple replacement"
-                },
-                {
-                  "label": "Best Option",
-                  "text": "Closest meaning in context"
-                }
-              ]
-            }
-          }
-        }
-      ]
+      "subTopics": []
     },
     {
       "id": "synonyms",
@@ -171,61 +117,7 @@
           ]
         }
       },
-      "subTopics": [
-        {
-          "id": "synonyms",
-          "slug": "synonyms",
-          "name": "Synonyms",
-          "description": "Choose the nearest meaning, not merely a related word.",
-          "level": "Core",
-          "progress": 31,
-          "url": "skills/verbal-skills/synonyms/",
-          "keywords": [
-            "synonym",
-            "nearest meaning",
-            "word precision",
-            "degree"
-          ],
-          "study": {
-            "simpleMeaning": "A synonym question asks for the closest meaning of a word in standard use.",
-            "whyItMatters": "High-quality synonym practice builds precision. Many wrong answers are connected to the word, but only one matches meaning, tone, and degree.",
-            "strategy": [
-              "State the word's basic meaning.",
-              "Check whether the word is positive, negative, or neutral.",
-              "Compare degree: mild, strong, temporary, permanent, formal, or emotional.",
-              "Choose the nearest meaning, not the most dramatic answer."
-            ],
-            "solvedExample": {
-              "prompt": "Select the nearest synonym of concise.",
-              "answer": "Brief.",
-              "explanation": "Concise means giving much meaning in few words. Brief is nearest; vague and simple do not capture precision."
-            },
-            "commonTraps": [
-              "Choosing a word from the same topic area but different meaning.",
-              "Missing connotation, such as praise versus criticism.",
-              "Confusing strong and mild meanings."
-            ],
-            "tip": "Ask: could this option replace the word in a careful sentence without changing meaning?",
-            "visual": {
-              "ariaLabel": "Verbal skill learning flow",
-              "nodes": [
-                {
-                  "label": "Word",
-                  "text": "Target meaning"
-                },
-                {
-                  "label": "Tone",
-                  "text": "Positive, negative, or neutral"
-                },
-                {
-                  "label": "Nearest Match",
-                  "text": "Meaning plus degree"
-                }
-              ]
-            }
-          }
-        }
-      ]
+      "subTopics": []
     },
     {
       "id": "antonyms",
@@ -284,61 +176,7 @@
           ]
         }
       },
-      "subTopics": [
-        {
-          "id": "antonyms",
-          "slug": "antonyms",
-          "name": "Antonyms",
-          "description": "Identify the most accurate opposite by meaning and degree.",
-          "level": "Core",
-          "progress": 29,
-          "url": "skills/verbal-skills/antonyms/",
-          "keywords": [
-            "antonym",
-            "opposite meaning",
-            "contrast",
-            "degree"
-          ],
-          "study": {
-            "simpleMeaning": "An antonym is the word that most nearly means the opposite of the target word.",
-            "whyItMatters": "Antonym questions test whether you understand the direction and strength of meaning. The best opposite is precise, not merely different.",
-            "strategy": [
-              "Define the target word in plain language.",
-              "Name the opposite idea before checking choices.",
-              "Check degree: the opposite of mild is not always extreme.",
-              "Avoid unrelated words that only feel negative or positive."
-            ],
-            "solvedExample": {
-              "prompt": "Select the antonym of reluctant.",
-              "answer": "Eager.",
-              "explanation": "Reluctant means unwilling or hesitant. Eager gives the opposite attitude."
-            },
-            "commonTraps": [
-              "Choosing a word with the same negative tone instead of the opposite meaning.",
-              "Choosing an unrelated word because it sounds unfamiliar.",
-              "Missing the degree of the word."
-            ],
-            "tip": "Convert the target word into a short phrase, then reverse that phrase.",
-            "visual": {
-              "ariaLabel": "Verbal skill learning flow",
-              "nodes": [
-                {
-                  "label": "Target",
-                  "text": "Meaning direction"
-                },
-                {
-                  "label": "Reverse",
-                  "text": "Opposite idea"
-                },
-                {
-                  "label": "Best Antonym",
-                  "text": "Accurate opposite degree"
-                }
-              ]
-            }
-          }
-        }
-      ]
+      "subTopics": []
     },
     {
       "id": "analogies",
@@ -397,61 +235,7 @@
           ]
         }
       },
-      "subTopics": [
-        {
-          "id": "analogies",
-          "slug": "analogies",
-          "name": "Analogies",
-          "description": "Match relationships between word pairs with careful logic.",
-          "level": "Core",
-          "progress": 27,
-          "url": "skills/verbal-skills/analogies/",
-          "keywords": [
-            "analogy",
-            "relationship",
-            "pair logic",
-            "semantic relation"
-          ],
-          "study": {
-            "simpleMeaning": "An analogy asks you to identify the relationship between two words and apply the same relationship to another pair.",
-            "whyItMatters": "Analogies build flexible reasoning. They reward learners who name the relationship, not learners who only notice topic similarity.",
-            "strategy": [
-              "Write a precise bridge sentence for the first pair.",
-              "Check the direction of the relationship.",
-              "Match the relationship type, not just the subject area.",
-              "Reject pairs with reversed, weaker, or merely associated relationships."
-            ],
-            "solvedExample": {
-              "prompt": "Thermometer : temperature :: barometer : ?",
-              "answer": "Pressure.",
-              "explanation": "A thermometer measures temperature; a barometer measures pressure. The relationship is instrument to what it measures."
-            },
-            "commonTraps": [
-              "Matching topic instead of relationship.",
-              "Reversing the order of the pair.",
-              "Choosing a related object rather than the function."
-            ],
-            "tip": "Use a bridge sentence: X is to Y as A is to B.",
-            "visual": {
-              "ariaLabel": "Verbal skill learning flow",
-              "nodes": [
-                {
-                  "label": "First Pair",
-                  "text": "Name the relationship"
-                },
-                {
-                  "label": "Direction",
-                  "text": "Keep order consistent"
-                },
-                {
-                  "label": "Matching Pair",
-                  "text": "Same logic, new words"
-                }
-              ]
-            }
-          }
-        }
-      ]
+      "subTopics": []
     },
     {
       "id": "word-relationships",
@@ -511,62 +295,7 @@
           ]
         }
       },
-      "subTopics": [
-        {
-          "id": "word-relationships",
-          "slug": "word-relationships",
-          "name": "Word Relationships",
-          "description": "Recognize category, function, part-whole, cause-effect, and degree relationships.",
-          "level": "Core",
-          "progress": 26,
-          "url": "skills/verbal-skills/word-relationships/",
-          "keywords": [
-            "word relationship",
-            "category",
-            "part whole",
-            "cause effect",
-            "function"
-          ],
-          "study": {
-            "simpleMeaning": "Word relationships describe how two words are logically connected.",
-            "whyItMatters": "This topic supports analogies, reading comprehension, and sentence logic because precise relationships reduce guessing.",
-            "strategy": [
-              "Ask whether one word is a type, part, tool, result, quality, location, or opposite of the other.",
-              "Turn the relationship into a short sentence.",
-              "Check whether the relationship works in both directions or only one direction.",
-              "Separate real meaning from loose association."
-            ],
-            "solvedExample": {
-              "prompt": "What is the relationship between catalyst and reaction?",
-              "answer": "A catalyst starts or speeds a reaction.",
-              "explanation": "The relationship is cause or agent to process. A catalyst is not a part of the reaction and not merely a synonym."
-            },
-            "commonTraps": [
-              "Calling every related pair a synonym.",
-              "Confusing category relationships with function relationships.",
-              "Ignoring direction, such as tool-to-task versus task-to-tool."
-            ],
-            "tip": "If you can write a clear bridge sentence, the relationship is usually under control.",
-            "visual": {
-              "ariaLabel": "Verbal skill learning flow",
-              "nodes": [
-                {
-                  "label": "Two Words",
-                  "text": "Identify both roles"
-                },
-                {
-                  "label": "Bridge Sentence",
-                  "text": "X does Y, X is part of Y, or X causes Y"
-                },
-                {
-                  "label": "Relationship Type",
-                  "text": "Choose the exact relation"
-                }
-              ]
-            }
-          }
-        }
-      ]
+      "subTopics": []
     },
     {
       "id": "sentence-completion",
@@ -626,62 +355,7 @@
           ]
         }
       },
-      "subTopics": [
-        {
-          "id": "sentence-completion",
-          "slug": "sentence-completion",
-          "name": "Sentence Completion",
-          "description": "Use grammar, clue words, and logic to choose the best missing word or phrase.",
-          "level": "Core",
-          "progress": 33,
-          "url": "skills/verbal-skills/sentence-completion/",
-          "keywords": [
-            "sentence completion",
-            "clue words",
-            "contrast",
-            "cause effect",
-            "blank"
-          ],
-          "study": {
-            "simpleMeaning": "Sentence completion means filling a blank with the word or phrase that best fits the sentence's logic.",
-            "whyItMatters": "The blank is rarely solved by vocabulary alone. The sentence usually gives signals such as contrast, cause, concession, or continuation.",
-            "strategy": [
-              "Read the full sentence before looking at options.",
-              "Mark clue words such as although, because, therefore, yet, and similarly.",
-              "Predict the blank in simple words.",
-              "Choose the option that fits both meaning and grammar."
-            ],
-            "solvedExample": {
-              "prompt": "Although the proposal sounded ambitious, the committee found it ____ because each step had a clear budget and timeline.",
-              "answer": "practical.",
-              "explanation": "Although signals contrast. Ambitious could sound unrealistic, but clear budget and timeline make it practical."
-            },
-            "commonTraps": [
-              "Ignoring contrast signals.",
-              "Choosing a word that fits one phrase but not the whole sentence.",
-              "Missing whether the blank needs a positive or negative word."
-            ],
-            "tip": "Cover the options and predict the blank first.",
-            "visual": {
-              "ariaLabel": "Verbal skill learning flow",
-              "nodes": [
-                {
-                  "label": "Signal Word",
-                  "text": "Contrast, cause, or continuation"
-                },
-                {
-                  "label": "Prediction",
-                  "text": "Plain-language blank"
-                },
-                {
-                  "label": "Option Check",
-                  "text": "Meaning plus grammar"
-                }
-              ]
-            }
-          }
-        }
-      ]
+      "subTopics": []
     },
     {
       "id": "sentence-correction",
@@ -741,62 +415,7 @@
           ]
         }
       },
-      "subTopics": [
-        {
-          "id": "sentence-correction",
-          "slug": "sentence-correction",
-          "name": "Sentence Correction",
-          "description": "Improve grammar, clarity, concision, and sentence structure.",
-          "level": "Core",
-          "progress": 30,
-          "url": "skills/verbal-skills/sentence-correction/",
-          "keywords": [
-            "sentence correction",
-            "grammar",
-            "clarity",
-            "parallelism",
-            "modifier"
-          ],
-          "study": {
-            "simpleMeaning": "Sentence correction asks you to choose the clearest and most grammatically accurate version of a sentence.",
-            "whyItMatters": "Good correction practice improves precision in writing and helps learners notice errors that affect meaning.",
-            "strategy": [
-              "Identify the core subject and verb.",
-              "Check agreement, tense, pronoun reference, modifiers, comparisons, and parallel structure.",
-              "Prefer clear and concise wording over wordy phrasing.",
-              "Do not change the intended meaning unless the original is illogical."
-            ],
-            "solvedExample": {
-              "prompt": "Incorrect: Running late, the report was submitted by Amina.",
-              "answer": "Running late, Amina submitted the report.",
-              "explanation": "The original modifier makes it sound as if the report was running late. The corrected sentence attaches the modifier to Amina."
-            },
-            "commonTraps": [
-              "Choosing a grammatically correct option that changes meaning.",
-              "Missing misplaced modifiers.",
-              "Keeping wordiness because it sounds formal."
-            ],
-            "tip": "Find the sentence's actor first; many correction errors hide in who is doing the action.",
-            "visual": {
-              "ariaLabel": "Verbal skill learning flow",
-              "nodes": [
-                {
-                  "label": "Core Sentence",
-                  "text": "Subject plus verb"
-                },
-                {
-                  "label": "Error Check",
-                  "text": "Agreement, modifier, tense, reference"
-                },
-                {
-                  "label": "Best Version",
-                  "text": "Correct, clear, concise"
-                }
-              ]
-            }
-          }
-        }
-      ]
+      "subTopics": []
     },
     {
       "id": "sentence-meaning-and-logic",
@@ -856,62 +475,7 @@
           ]
         }
       },
-      "subTopics": [
-        {
-          "id": "sentence-meaning-and-logic",
-          "slug": "sentence-meaning-and-logic",
-          "name": "Sentence Meaning and Logic",
-          "description": "Track how ideas connect inside a sentence or short statement.",
-          "level": "Core",
-          "progress": 28,
-          "url": "skills/verbal-skills/sentence-meaning-and-logic/",
-          "keywords": [
-            "sentence logic",
-            "meaning",
-            "inference",
-            "contrast",
-            "cause effect"
-          ],
-          "study": {
-            "simpleMeaning": "Sentence meaning and logic is the skill of understanding how ideas in a sentence connect.",
-            "whyItMatters": "Many verbal errors come from reading words correctly but missing the relationship between ideas. This topic builds control over implication, contrast, cause, and qualification.",
-            "strategy": [
-              "Identify the main claim of the sentence.",
-              "Mark relationship signals such as because, however, therefore, unless, and whereas.",
-              "Separate what is stated from what is implied.",
-              "Choose the option that preserves the exact logic without adding a new claim."
-            ],
-            "solvedExample": {
-              "prompt": "Although the data are limited, they are consistent across three independent surveys.",
-              "answer": "The sentence cautiously supports the data while admitting a limitation.",
-              "explanation": "Although introduces a limitation; consistent across surveys provides support. The logic is balanced, not dismissive."
-            },
-            "commonTraps": [
-              "Treating cautious support as complete rejection.",
-              "Ignoring qualifying words such as some, most, often, may, and likely.",
-              "Adding information that the sentence does not state."
-            ],
-            "tip": "Translate the sentence into a one-line logic map before choosing.",
-            "visual": {
-              "ariaLabel": "Verbal skill learning flow",
-              "nodes": [
-                {
-                  "label": "Main Claim",
-                  "text": "What is being said"
-                },
-                {
-                  "label": "Signal",
-                  "text": "How ideas connect"
-                },
-                {
-                  "label": "Exact Meaning",
-                  "text": "No extra claim added"
-                }
-              ]
-            }
-          }
-        }
-      ]
+      "subTopics": []
     },
     {
       "id": "argument-analysis",
