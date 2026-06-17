@@ -283,6 +283,34 @@ function renderTopicDetail(app, categorySlug, topicSlug) {
   const topic = getTopic(data, topicSlug);
   if (!category || !topic) return renderMissing(app, "Topic");
   const topics = data.topics.filter((item) => item.skillCategory === category.id);
+  const study = topic.study || topic.subTopics?.[0]?.study;
+
+  if (study) {
+    app.innerHTML = `
+      <section class="learning-layout">
+        ${topicNavigation(topics, topic.id, topic.subTopics?.[0]?.id || "")}
+        <article class="study-card">
+          <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="skills/">Skills</a><span>/</span><a href="${category.url}">${escapeHtml(category.name)}</a><span>/</span><span>${escapeHtml(topic.name)}</span>
+          </nav>
+          <h1>${escapeHtml(topic.name)}</h1>
+          <p class="muted">${escapeHtml(topic.description)}</p>
+          ${studySectionsHtml(study)}
+          <div class="bottom-next">
+            ${actionLink("Practice This Topic", topic.practiceUrl)}
+            ${actionLink("Related Topics", category.url, "secondary")}
+            ${topic.nextTopicUrl ? actionLink("Next Topic", topic.nextTopicUrl, "secondary") : ""}
+          </div>
+        </article>
+        ${quietTools([
+          { label: "Topic progress", value: `${topic.progress}%` },
+          { label: "Question count", value: `${topic.questionCount}` },
+          { label: "Next step", value: topic.recommendedSubTopic || "Practice this topic" }
+        ])}
+      </section>
+    `;
+    return;
+  }
 
   app.innerHTML = `
     <section class="learning-layout">
@@ -338,40 +366,7 @@ function renderStudyPage(app, categorySlug, topicSlug, subTopicSlug) {
         <h1>${escapeHtml(subTopic.name)}</h1>
         <p class="muted">${escapeHtml(subTopic.description)}</p>
 
-        <section class="study-section">
-          <h2>Simple Meaning</h2>
-          <p>${escapeHtml(study.simpleMeaning)}</p>
-        </section>
-        <section class="study-section">
-          <h2>Why It Matters</h2>
-          <p>${escapeHtml(study.whyItMatters)}</p>
-        </section>
-        <section class="study-section">
-          <h2>Step-by-Step Strategy</h2>
-          <ol class="strategy-list">${(study.strategy || []).map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ol>
-        </section>
-        <section class="study-section">
-          <h2>Solved Example</h2>
-          <p><strong>Argument:</strong> ${escapeHtml(study.solvedExample?.argument || "")}</p>
-          <p><strong>Answer:</strong> ${escapeHtml(study.solvedExample?.answer || "")}</p>
-          <p>${escapeHtml(study.solvedExample?.explanation || "")}</p>
-        </section>
-        <section class="study-section">
-          <h2>Common Traps</h2>
-          <ul class="strategy-list">${(study.commonTraps || []).map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
-        </section>
-        <section class="study-section">
-          <h2>Tips and Tricks</h2>
-          <div class="note-box">${escapeHtml(study.tip || "")}</div>
-        </section>
-        <section class="study-section">
-          <h2>Visual Summary</h2>
-          <div class="logic-flow" role="img" aria-label="Evidence leads to hidden assumption, which supports conclusion">
-            <div class="logic-node"><strong>Evidence</strong><span>${escapeHtml(study.visual?.evidence || "Given facts")}</span></div>
-            <div class="logic-node"><strong>Hidden Assumption</strong><span>${escapeHtml(study.visual?.assumption || "Must be true")}</span></div>
-            <div class="logic-node"><strong>Conclusion</strong><span>${escapeHtml(study.visual?.conclusion || "Claim that depends on it")}</span></div>
-          </div>
-        </section>
+        ${studySectionsHtml(study)}
         <div class="bottom-next">
           ${actionLink("Practice This Topic", `${topic.practiceUrl}?subTopic=${subTopic.id}`)}
           ${actionLink("Mini Test", "mock-tests/#assumption-mini-test", "secondary")}
@@ -388,10 +383,57 @@ function renderStudyPage(app, categorySlug, topicSlug, subTopicSlug) {
   `;
 }
 
+function studySectionsHtml(study) {
+  const visualNodes = study.visual?.nodes || [
+    { label: "Evidence", text: study.visual?.evidence || "Given facts" },
+    { label: "Hidden Assumption", text: study.visual?.assumption || "Must be true" },
+    { label: "Conclusion", text: study.visual?.conclusion || "Claim that depends on it" }
+  ];
+
+  return `
+    <section class="study-section">
+      <h2>Simple Meaning</h2>
+      <p>${escapeHtml(study.simpleMeaning)}</p>
+    </section>
+    <section class="study-section">
+      <h2>Why It Matters</h2>
+      <p>${escapeHtml(study.whyItMatters)}</p>
+    </section>
+    <section class="study-section">
+      <h2>Step-by-Step Strategy</h2>
+      <ol class="strategy-list">${(study.strategy || []).map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ol>
+    </section>
+    <section class="study-section">
+      <h2>Solved Example</h2>
+      <p><strong>Prompt:</strong> ${escapeHtml(study.solvedExample?.argument || study.solvedExample?.prompt || "")}</p>
+      <p><strong>Answer:</strong> ${escapeHtml(study.solvedExample?.answer || "")}</p>
+      <p>${escapeHtml(study.solvedExample?.explanation || "")}</p>
+    </section>
+    <section class="study-section">
+      <h2>Common Traps</h2>
+      <ul class="strategy-list">${(study.commonTraps || []).map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
+    </section>
+    <section class="study-section">
+      <h2>Tips and Tricks</h2>
+      <div class="note-box">${escapeHtml(study.tip || "")}</div>
+    </section>
+    <section class="study-section">
+      <h2>Visual Summary</h2>
+      <div class="logic-flow" role="img" aria-label="${escapeHtml(study.visual?.ariaLabel || "Learning flow summary")}">
+        ${visualNodes.map((node) => `
+          <div class="logic-node"><strong>${escapeHtml(node.label)}</strong><span>${escapeHtml(node.text)}</span></div>
+        `).join("")}
+      </div>
+    </section>
+  `;
+}
+
 function renderPracticeBank(app) {
   const data = state.data;
   const params = new URLSearchParams(window.location.search);
   const filters = {
+    skillCategory: params.get("skillCategory") || "all",
+    skill: params.get("skill") || "all",
     level: params.get("level") || "all",
     difficulty: params.get("difficulty") || "all",
     exam: params.get("exam") || "all",
@@ -427,14 +469,18 @@ function filterPanel(filters, topicFilter) {
   const data = state.data;
   const levels = ["all", ...data.levels];
   const difficulties = ["all", "Easy", "Medium", "Hard"];
-  const questionTypes = ["all", "Necessary Assumption", "Missing Link", "Trap Options", "Assumption vs Inference"];
+  const questionTypes = ["all", ...new Set(data.questions.map((question) => question.questionType).filter(Boolean))];
   const statuses = ["all", "New", "Attempted", "Wrong", "Bookmarked", "Mastered"];
   const exams = ["all", ...new Set(data.questions.flatMap((question) => question.examTags || []))];
+  const categoryLabels = data.categories.reduce((map, category) => ({ ...map, [category.id]: category.name }), {});
+  const skillLabels = data.skills.reduce((map, skill) => ({ ...map, [skill.id]: skill.name }), {});
 
   return `
     <form class="filter-panel" data-filter-form>
       <h2>Optional Filters</h2>
       <div class="filter-grid">
+        ${selectControl("skillCategory", "Skill Category", ["all", ...data.categories.map((category) => category.id)], filters.skillCategory, categoryLabels)}
+        ${selectControl("skill", "Skill", ["all", ...data.skills.map((skill) => skill.id)], filters.skill, skillLabels)}
         ${selectControl("topic", "Topic", ["all", ...data.topics.map((topic) => topic.id)], topicFilter, data.topics.reduce((map, topic) => ({ ...map, [topic.id]: topic.name }), {}))}
         ${selectControl("level", "Level", levels, filters.level)}
         ${selectControl("difficulty", "Difficulty", difficulties, filters.difficulty)}

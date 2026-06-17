@@ -1,17 +1,23 @@
 {
   "schemaVersion": 1,
-  "levels": ["Starter", "Foundation", "Core", "Skilled", "Advanced"],
+  "levels": [
+    "Starter",
+    "Foundation",
+    "Core",
+    "Skilled",
+    "Advanced"
+  ],
   "categories": [
     {
       "id": "verbal-skills",
       "slug": "verbal-skills",
       "name": "Verbal Skills",
-      "description": "Build vocabulary, sentence clarity, verbal logic, and meaning-based reasoning.",
-      "level": "Starter",
-      "progress": 12,
-      "url": "skills/",
+      "description": "Build vocabulary precision, word relationships, sentence logic, grammar accuracy, and verbal reasoning under exam-style pressure.",
+      "level": "Core",
+      "progress": 36,
+      "url": "skills/verbal-skills/",
       "practiceUrl": "practice/?skillCategory=verbal-skills",
-      "recommendedNextTopic": "Vocabulary in Context"
+      "recommendedNextTopic": "Vocabulary Reasoning"
     },
     {
       "id": "reading-skills",
@@ -115,6 +121,17 @@
   ],
   "skills": [
     {
+      "id": "core-verbal-reasoning",
+      "categoryId": "verbal-skills",
+      "slug": "core-verbal-reasoning",
+      "name": "Core Verbal Reasoning",
+      "description": "A professional verbal skills path covering vocabulary, synonyms, antonyms, analogies, word relationships, sentence completion, correction, and meaning logic.",
+      "level": "Core",
+      "progress": 36,
+      "url": "skills/verbal-skills/",
+      "practiceUrl": "practice/?skillCategory=verbal-skills"
+    },
+    {
       "id": "argument-reasoning",
       "categoryId": "logical-reasoning",
       "slug": "argument-reasoning",
@@ -127,4 +144,3 @@
     }
   ]
 }
-
