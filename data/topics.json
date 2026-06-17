@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "topics": [
+    {
+      "id": "argument-analysis",
+      "slug": "argument-analysis",
+      "skillCategory": "logical-reasoning",
+      "skill": "argument-reasoning",
+      "name": "Argument Analysis",
+      "description": "Separate conclusion, evidence, context, and assumptions before choosing an answer.",
+      "level": "Foundation",
+      "progress": 38,
+      "url": "/skills/logical-reasoning/argument-analysis/",
+      "practiceUrl": "/practice/?topic=argument-analysis",
+      "keywords": ["claim", "evidence", "conclusion"],
+      "subTopics": []
+    },
+    {
+      "id": "assumption-reasoning",
+      "slug": "assumption-reasoning",
+      "skillCategory": "logical-reasoning",
+      "skill": "argument-reasoning",
+      "name": "Assumption Reasoning",
+      "description": "Find the unstated idea that connects evidence to a conclusion.",
+      "level": "Core",
+      "progress": 62,
+      "url": "/skills/logical-reasoning/assumption-reasoning/",
+      "practiceUrl": "/practice/logical-reasoning/assumption-reasoning/",
+      "recommendedSubTopic": "Necessary Assumption",
+      "keywords": ["necessary assumption", "hidden assumption", "missing link", "trap options"],
+      "subTopics": [
+        {
+          "id": "what-is-an-assumption",
+          "slug": "what-is-an-assumption",
+          "name": "What is an Assumption?",
+          "description": "Understand the hidden idea an argument depends on.",
+          "level": "Foundation",
+          "progress": 78,
+          "url": "/skills/logical-reasoning/assumption-reasoning/what-is-an-assumption/",
+          "keywords": ["unstated idea", "argument depends"],
+          "study": {
+            "simpleMeaning": "An assumption is an unstated idea that the argument treats as true.",
+            "whyItMatters": "Most argument questions test whether you can notice what the writer did not say directly.",
+            "strategy": ["Find the conclusion.", "Find the evidence.", "Ask what must be accepted for the evidence to support the conclusion.", "Avoid answers that are merely interesting."],
+            "solvedExample": {
+              "argument": "The school installed brighter corridor lights, so late arrivals will decrease.",
+              "answer": "Late arrivals are partly caused by difficulty moving safely through dim corridors.",
+              "explanation": "Without that link, brighter lights may not affect late arrivals."
+            },
+            "commonTraps": ["Choosing a statement that supports the conclusion but is not required.", "Choosing background information that does not connect evidence to conclusion."],
+            "tip": "If the argument collapses when the answer is false, the answer is probably an assumption.",
+            "visual": {
+              "evidence": "Brighter corridor lights",
+              "assumption": "Dim corridors contribute to late arrivals",
+              "conclusion": "Late arrivals will decrease"
+            },
+            "nextUrl": "/skills/logical-reasoning/assumption-reasoning/necessary-assumption/"
+          }
+        },
+        {
+          "id": "necessary-assumption",
+          "slug": "necessary-assumption",
+          "name": "Necessary Assumption",
+          "description": "Identify what must be true for the argument to work.",
+          "level": "Core",
+          "progress": 62,
+          "url": "/skills/logical-reasoning/assumption-reasoning/necessary-assumption/",
+          "keywords": ["must be true", "depends on", "negation test"],
+          "study": {
+            "simpleMeaning": "A necessary assumption is an unstated idea that must be true for the argument to work.",
+            "whyItMatters": "Necessary assumption questions reward precision. The correct answer is not just helpful; the conclusion depends on it.",
+            "strategy": ["Find the conclusion.", "Find the evidence.", "Ask: what must be true for this evidence to support this conclusion?", "Remove options that are relevant but not required.", "Use the negation test: if the opposite destroys the argument, the original choice is necessary."],
+            "solvedExample": {
+              "argument": "The city library added online renewals. Therefore, front-desk lines will become shorter.",
+              "answer": "A meaningful number of front-desk visits are made by patrons renewing books.",
+              "explanation": "If renewals are not a reason people stand in line, online renewals would not necessarily shorten the line."
+            },
+            "commonTraps": ["Choosing an answer that would strengthen the argument but is stronger than required.", "Choosing an answer that repeats the conclusion in different words.", "Choosing a true-sounding detail that does not connect evidence to conclusion."],
+            "tip": "Do not choose what merely supports the argument. Choose what the argument depends on.",
+            "visual": {
+              "evidence": "Online renewals are available",
+              "assumption": "Renewals cause many front-desk visits",
+              "conclusion": "Front-desk lines will shrink"
+            },
+            "nextUrl": "/skills/logical-reasoning/assumption-reasoning/missing-link/"
+          }
+        },
+        {
+          "id": "missing-link",
+          "slug": "missing-link",
+          "name": "Missing Link",
+          "description": "Bridge the gap between evidence and conclusion.",
+          "level": "Core",
+          "progress": 54,
+          "url": "/skills/logical-reasoning/assumption-reasoning/missing-link/",
+          "keywords": ["gap", "bridge", "link"],
+          "study": {
+            "simpleMeaning": "A missing link is the bridge the writer forgot to state.",
+            "whyItMatters": "When evidence and conclusion mention different ideas, the correct assumption often connects those ideas.",
+            "strategy": ["Underline the new idea in the conclusion.", "Underline the evidence idea that is supposed to support it.", "Ask what connects those two ideas.", "Choose the smallest bridge that is required."],
+            "solvedExample": {
+              "argument": "The app sends reminders before study sessions. Therefore, students will complete more sessions.",
+              "answer": "Forgetting sessions is one reason students fail to complete them.",
+              "explanation": "The reminder only helps if forgetfulness is part of the problem."
+            },
+            "commonTraps": ["Choosing an answer about motivation when the evidence is about memory.", "Choosing a broad claim that goes beyond the argument."],
+            "tip": "Name the gap in plain language before reading the answer choices.",
+            "visual": {
+              "evidence": "Reminders before sessions",
+              "assumption": "Forgetfulness blocks completion",
+              "conclusion": "More sessions completed"
+            },
+            "nextUrl": "/skills/logical-reasoning/assumption-reasoning/trap-options/"
+          }
+        },
+        {
+          "id": "trap-options",
+          "slug": "trap-options",
+          "name": "Trap Options",
+          "description": "Spot answers that sound helpful but are not necessary.",
+          "level": "Core",
+          "progress": 47,
+          "url": "/skills/logical-reasoning/assumption-reasoning/trap-options/",
+          "keywords": ["trap", "wrong options", "too strong"],
+          "study": {
+            "simpleMeaning": "Trap options are attractive choices that do not actually hold the argument together.",
+            "whyItMatters": "A calm learner can avoid choosing a fact that is useful, extreme, or interesting but not required.",
+            "strategy": ["Check whether the option is required, not merely helpful.", "Beware of extreme words such as all, always, never, and only.", "Reject choices that introduce a new goal.", "Use the negation test when two choices feel close."],
+            "solvedExample": {
+              "argument": "A company switched to shorter training videos, so employees will finish training faster.",
+              "answer": "Employees spend less total time watching the shorter videos than they spent with the older videos.",
+              "explanation": "A trap might say employees enjoy short videos, but enjoyment is not required for faster completion."
+            },
+            "commonTraps": ["Mistaking a benefit for a requirement.", "Choosing a choice that is too broad for the conclusion."],
+            "tip": "Ask, does the conclusion need this exact idea, or would it merely be nice to know?",
+            "visual": {
+              "evidence": "Shorter videos",
+              "assumption": "Shorter videos reduce total training time",
+              "conclusion": "Training finishes faster"
+            },
+            "nextUrl": "/skills/logical-reasoning/assumption-reasoning/assumption-vs-inference/"
+          }
+        },
+        {
+          "id": "assumption-vs-inference",
+          "slug": "assumption-vs-inference",
+          "name": "Assumption vs Inference",
+          "description": "Tell the difference between what must be true before the conclusion and what follows after the facts.",
+          "level": "Core",
+          "progress": 41,
+          "url": "/skills/logical-reasoning/assumption-reasoning/assumption-vs-inference/",
+          "keywords": ["inference", "assumption", "difference"],
+          "study": {
+            "simpleMeaning": "An assumption supports the argument from underneath. An inference is a conclusion you can draw from stated facts.",
+            "whyItMatters": "Many wrong answers are valid inferences, but the question asks for the hidden support.",
+            "strategy": ["For assumptions, ask what the author needs.", "For inferences, ask what the facts prove.", "Check the question stem before choosing.", "Do not swap a result for a requirement."],
+            "solvedExample": {
+              "argument": "The clinic added evening hours, so missed appointments will decline.",
+              "answer": "Some missed appointments happen because patients cannot attend during daytime hours.",
+              "explanation": "This is an assumption because the conclusion needs that hidden cause."
+            },
+            "commonTraps": ["Choosing what probably follows from the evidence instead of what the author must assume.", "Treating a prediction as a required bridge."],
+            "tip": "Assumption: needed before the conclusion works. Inference: proven after the facts are accepted.",
+            "visual": {
+              "evidence": "Evening hours added",
+              "assumption": "Daytime-only access causes missed appointments",
+              "conclusion": "Missed appointments decline"
+            },
+            "nextUrl": "/practice/logical-reasoning/assumption-reasoning/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "inference-reasoning",
+      "slug": "inference-reasoning",
+      "skillCategory": "logical-reasoning",
+      "skill": "argument-reasoning",
+      "name": "Inference Reasoning",
+      "description": "Choose what follows from the facts without adding outside assumptions.",
+      "level": "Foundation",
+      "progress": 25,
+      "url": "/skills/logical-reasoning/inference-reasoning/",
+      "practiceUrl": "/practice/?topic=inference-reasoning",
+      "keywords": ["must be true", "supported inference"],
+      "subTopics": []
+    },
+    {
+      "id": "strengthen-weaken-arguments",
+      "slug": "strengthen-weaken-arguments",
+      "skillCategory": "logical-reasoning",
+      "skill": "argument-reasoning",
+      "name": "Strengthen / Weaken Arguments",
+      "description": "Find evidence that makes an argument stronger or weaker.",
+      "level": "Core",
+      "progress": 19,
+      "url": "/skills/logical-reasoning/strengthen-weaken-arguments/",
+      "practiceUrl": "/practice/?topic=strengthen-weaken-arguments",
+      "keywords": ["strengthen", "weaken", "evidence"],
+      "subTopics": []
+    },
+    {
+      "id": "logical-fallacies",
+      "slug": "logical-fallacies",
+      "skillCategory": "logical-reasoning",
+      "skill": "argument-reasoning",
+      "name": "Logical Fallacies",
+      "description": "Recognize flawed reasoning patterns and tempting invalid conclusions.",
+      "level": "Foundation",
+      "progress": 13,
+      "url": "/skills/logical-reasoning/logical-fallacies/",
+      "practiceUrl": "/practice/?topic=logical-fallacies",
+      "keywords": ["fallacy", "flaw", "invalid"],
+      "subTopics": []
+    },
+    {
+      "id": "cause-and-effect",
+      "slug": "cause-and-effect",
+      "skillCategory": "logical-reasoning",
+      "skill": "argument-reasoning",
+      "name": "Cause and Effect",
+      "description": "Evaluate causal claims, alternate causes, and correlation traps.",
+      "level": "Core",
+      "progress": 16,
+      "url": "/skills/logical-reasoning/cause-and-effect/",
+      "practiceUrl": "/practice/?topic=cause-and-effect",
+      "keywords": ["cause", "effect", "correlation"],
+      "subTopics": []
+    }
+  ]
+}

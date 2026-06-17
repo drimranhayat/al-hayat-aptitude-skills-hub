@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "overall": {
+    "learnerName": "Sample Learner",
+    "progress": 44,
+    "currentLevel": "Core",
+    "accuracy": 71,
+    "speed": "Normal"
+  },
+  "skills": [
+    {
+      "id": "assumption-reasoning",
+      "name": "Assumption Reasoning",
+      "progress": 62,
+      "accuracy": 71,
+      "speed": "Normal",
+      "mistakes": 8,
+      "level": "Core",
+      "repairUrl": "/skills/logical-reasoning/assumption-reasoning/trap-options/",
+      "practiceUrl": "/practice/logical-reasoning/assumption-reasoning/?difficulty=Medium"
+    },
+    {
+      "id": "argument-analysis",
+      "name": "Argument Analysis",
+      "progress": 38,
+      "accuracy": 64,
+      "speed": "Slow",
+      "mistakes": 5,
+      "level": "Foundation",
+      "repairUrl": "/skills/logical-reasoning/argument-analysis/",
+      "practiceUrl": "/practice/?topic=argument-analysis"
+    },
+    {
+      "id": "inference-reasoning",
+      "name": "Inference Reasoning",
+      "progress": 25,
+      "accuracy": 59,
+      "speed": "Normal",
+      "mistakes": 6,
+      "level": "Foundation",
+      "repairUrl": "/skills/logical-reasoning/inference-reasoning/",
+      "practiceUrl": "/practice/?topic=inference-reasoning"
+    }
+  ],
+  "strongSkills": ["Necessary Assumption", "Basic Argument Structure"],
+  "weakSkills": ["Trap Options", "Assumption vs Inference"],
+  "completedTopics": ["What is an Assumption?"],
+  "mistakeTypes": [
+    { "label": "Chose helpful but not required", "count": 4 },
+    { "label": "Missed conclusion", "count": 2 },
+    { "label": "Confused inference with assumption", "count": 2 }
+  ],
+  "nextStep": {
+    "label": "Practice 5 medium questions on Necessary Assumption",
+    "description": "Assumption Reasoning is 62% complete with 71% accuracy. The next repair target is medium Necessary Assumption practice.",
+    "url": "/practice/logical-reasoning/assumption-reasoning/?subTopic=necessary-assumption&difficulty=Medium"
+  },
+  "badges": ["Core Reasoner", "First Topic Complete", "Mistake Reviewer"]
+}

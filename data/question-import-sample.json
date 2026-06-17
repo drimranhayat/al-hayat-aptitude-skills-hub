@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "notes": "Paste new questions into data/questions.json using this same object shape. For larger future batches, create a separate JSON pack and add its path to the imports array in data/questions.json.",
+  "questions": [
+    {
+      "id": "unique-question-id",
+      "skillCategory": "logical-reasoning",
+      "skill": "argument-reasoning",
+      "topic": "assumption-reasoning",
+      "subTopic": "necessary-assumption",
+      "level": "Core",
+      "difficulty": "Medium",
+      "questionType": "Necessary Assumption",
+      "questionText": "Write the original practice question here.",
+      "options": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "One or two sentences explaining the correct answer.",
+      "fullExplanation": {
+        "steps": [
+          { "title": "Find the conclusion", "text": "State the conclusion." },
+          { "title": "Find the evidence", "text": "State the evidence." },
+          { "title": "Find the missing link", "text": "State the required bridge." }
+        ],
+        "correctAnswer": "Explain why the correct option is necessary.",
+        "whyOtherOptionsAreWrong": {
+          "B": "Explain why B is wrong.",
+          "C": "Explain why C is wrong.",
+          "D": "Explain why D is wrong."
+        }
+      },
+      "commonMistake": "Name the likely mistake pattern.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "/skills/logical-reasoning/assumption-reasoning/necessary-assumption/",
+      "examTags": ["Admissions aptitude"],
+      "status": "New",
+      "keywords": ["assumption", "logical reasoning"]
+    }
+  ]
+}
