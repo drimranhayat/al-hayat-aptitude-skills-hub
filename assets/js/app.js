@@ -7,7 +7,7 @@ import {
   loadSiteData,
   searchRecords,
   slugFromPathname
-} from "./data-loader.js";
+} from "./data-loader.js?v=verbal-20260617";
 
 import {
   actionLink,
@@ -22,9 +22,9 @@ import {
   subTopicCard,
   topicCard,
   topicNavigation
-} from "./components.js";
+} from "./components.js?v=verbal-20260617";
 
-import { fixInternalLinks, navigateTo } from "./path-utils.js";
+import { fixInternalLinks, navigateTo } from "./path-utils.js?v=verbal-20260617";
 
 const state = {
   data: null,

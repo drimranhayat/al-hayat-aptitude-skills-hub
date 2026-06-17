@@ -1,4 +1,6 @@
-import { siteUrl, stripBasePath } from "./path-utils.js";
+import { siteUrl, stripBasePath } from "./path-utils.js?v=verbal-20260617";
+
+const DATA_VERSION = "verbal-20260617";
 
 const DATA_FILES = {
   skills: "data/skills.json",
@@ -50,7 +52,9 @@ export async function loadSiteData() {
 }
 
 async function fetchJson(path) {
-  const response = await fetch(siteUrl(path));
+  const url = new URL(siteUrl(path), window.location.origin);
+  url.searchParams.set("v", DATA_VERSION);
+  const response = await fetch(url.toString(), { cache: "no-store" });
   if (!response.ok) {
     throw new Error(`Could not load ${path}: ${response.status}`);
   }

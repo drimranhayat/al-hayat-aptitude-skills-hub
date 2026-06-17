@@ -1,4 +1,4 @@
-import { siteUrl } from "./path-utils.js";
+import { siteUrl } from "./path-utils.js?v=verbal-20260617";
 
 export function escapeHtml(value = "") {
   return String(value)
