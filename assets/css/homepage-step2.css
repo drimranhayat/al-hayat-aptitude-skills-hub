@@ -1,0 +1,452 @@
+:root {
+  --step2-navy: #0f2747;
+  --step2-navy-2: #173a63;
+  --step2-gold: #d8a83f;
+  --step2-ink: #102033;
+  --step2-muted: #627287;
+  --step2-line: #dfe7f1;
+  --step2-soft: #f5f8fc;
+  --step2-white: #ffffff;
+  --step2-radius: 22px;
+  --step2-shadow: 0 18px 50px rgba(15, 39, 71, 0.12);
+}
+
+body {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.step2-hero {
+  background:
+    radial-gradient(circle at top right, rgba(216, 168, 63, 0.20), transparent 32rem),
+    linear-gradient(135deg, #0b1e37 0%, #0f2747 46%, #173a63 100%);
+  color: #fff;
+  padding: clamp(4rem, 8vw, 7.25rem) 0 clamp(3rem, 6vw, 5.25rem);
+  overflow: hidden;
+}
+
+.step2-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.18fr) minmax(320px, 0.82fr);
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: center;
+}
+
+.step2-kicker {
+  margin: 0 0 0.75rem;
+  color: var(--step2-gold);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.step2-hero h1 {
+  margin: 0;
+  max-width: 780px;
+  color: #fff;
+  font-size: clamp(2.35rem, 6vw, 5rem);
+  line-height: 0.98;
+  letter-spacing: -0.055em;
+}
+
+.step2-lead {
+  max-width: 760px;
+  margin: 1.35rem 0 0;
+  color: rgba(255, 255, 255, 0.84);
+  font-size: clamp(1.02rem, 2vw, 1.24rem);
+  line-height: 1.75;
+}
+
+.step2-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  margin-top: 2rem;
+}
+
+.step2-btn {
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  padding: 0.85rem 1.25rem;
+  font-weight: 800;
+  text-decoration: none;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+}
+
+.step2-btn:hover {
+  transform: translateY(-2px);
+}
+
+.step2-btn-primary {
+  background: var(--step2-gold);
+  color: #102033;
+  box-shadow: 0 14px 32px rgba(216, 168, 63, 0.25);
+}
+
+.step2-btn-secondary {
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+}
+
+.step2-note {
+  margin: 1.1rem 0 0;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.92rem;
+}
+
+.step2-hero-panel {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.11);
+  box-shadow: 0 28px 80px rgba(0, 0, 0, 0.22);
+  padding: clamp(1.25rem, 3vw, 1.8rem);
+  backdrop-filter: blur(16px);
+}
+
+.step2-panel-top {
+  display: grid;
+  gap: 0.35rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+  padding-bottom: 1rem;
+}
+
+.step2-panel-top span {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.step2-panel-top strong {
+  color: #fff;
+  font-size: 1.28rem;
+}
+
+.step2-mini-steps {
+  display: grid;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.step2-mini-steps div {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.10);
+  padding: 0.9rem;
+}
+
+.step2-mini-steps b {
+  display: grid;
+  width: 34px;
+  height: 34px;
+  place-items: center;
+  border-radius: 50%;
+  background: #fff;
+  color: var(--step2-navy);
+}
+
+.step2-mini-steps span {
+  color: rgba(255, 255, 255, 0.88);
+  font-weight: 700;
+}
+
+.step2-section {
+  padding: clamp(3rem, 6vw, 5rem) 0;
+}
+
+.step2-soft-bg {
+  background: var(--step2-soft);
+}
+
+.step2-section-head {
+  max-width: 780px;
+  margin-bottom: 1.6rem;
+}
+
+.step2-section-head h2,
+.step2-system-grid h2,
+.step2-final-box h2 {
+  margin: 0;
+  color: var(--step2-ink);
+  font-size: clamp(1.75rem, 4vw, 3rem);
+  line-height: 1.08;
+  letter-spacing: -0.035em;
+}
+
+.step2-section-head p:not(.step2-kicker),
+.step2-body,
+.step2-final-box p {
+  color: var(--step2-muted);
+  font-size: 1.02rem;
+  line-height: 1.72;
+}
+
+.step2-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.step2-grid-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.step2-card {
+  position: relative;
+  display: flex;
+  min-height: 230px;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid var(--step2-line);
+  border-radius: var(--step2-radius);
+  background: var(--step2-white);
+  padding: 1.25rem;
+  box-shadow: 0 10px 26px rgba(15, 39, 71, 0.06);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.step2-card:hover {
+  border-color: rgba(216, 168, 63, 0.56);
+  box-shadow: var(--step2-shadow);
+  transform: translateY(-4px);
+}
+
+.step2-icon {
+  display: grid;
+  width: 48px;
+  height: 48px;
+  place-items: center;
+  border-radius: 15px;
+  background: #eef4fb;
+  font-size: 1.45rem;
+}
+
+.step2-card h3 {
+  margin: 1rem 0 0.45rem;
+  color: var(--step2-ink);
+  font-size: 1.16rem;
+}
+
+.step2-card p {
+  margin: 0 0 1rem;
+  color: var(--step2-muted);
+  line-height: 1.62;
+}
+
+.step2-card a {
+  margin-top: auto;
+  color: var(--step2-navy-2);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.step2-card a:hover {
+  color: #9b6f12;
+}
+
+.step2-stats-strip {
+  padding: 1.4rem 0;
+  background: #fff;
+  border-bottom: 1px solid var(--step2-line);
+}
+
+.step2-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.step2-stats-grid div {
+  border: 1px solid var(--step2-line);
+  border-radius: 18px;
+  background: #fff;
+  padding: 1rem;
+}
+
+.step2-stats-grid strong {
+  display: block;
+  color: var(--step2-navy);
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  line-height: 1;
+}
+
+.step2-stats-grid span {
+  display: block;
+  margin-top: 0.35rem;
+  color: var(--step2-muted);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.step2-system-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(320px, 1.05fr);
+  gap: clamp(1.5rem, 4vw, 3rem);
+  align-items: center;
+}
+
+.step2-checklist {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.step2-checklist div {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+  border: 1px solid var(--step2-line);
+  border-radius: 18px;
+  background: #fff;
+  padding: 1rem;
+  color: var(--step2-ink);
+  font-weight: 700;
+  box-shadow: 0 10px 24px rgba(15, 39, 71, 0.05);
+}
+
+.step2-checklist span {
+  display: grid;
+  flex: 0 0 auto;
+  width: 26px;
+  height: 26px;
+  place-items: center;
+  border-radius: 50%;
+  background: #e7f5ee;
+  color: #19734d;
+}
+
+.step2-instructors-section {
+  background: linear-gradient(180deg, #f7fafc 0%, #ffffff 100%);
+}
+
+.step2-instructors {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.step2-instructor-card {
+  display: grid;
+  grid-template-columns: 148px minmax(0, 1fr);
+  gap: 1.15rem;
+  align-items: center;
+  border: 1px solid var(--step2-line);
+  border-radius: 28px;
+  background: #fff;
+  padding: 1rem;
+  box-shadow: var(--step2-shadow);
+}
+
+.step2-instructor-card img {
+  width: 148px;
+  height: 148px;
+  object-fit: cover;
+  border-radius: 24px;
+  border: 4px solid #f1f5f9;
+  box-shadow: 0 14px 34px rgba(15, 39, 71, 0.14);
+}
+
+.step2-instructor-card h3 {
+  margin: 0;
+  color: var(--step2-ink);
+  font-size: 1.3rem;
+}
+
+.step2-instructor-card p {
+  margin: 0.35rem 0 0.6rem;
+  color: #9b6f12;
+  font-weight: 800;
+}
+
+.step2-instructor-card span {
+  color: var(--step2-muted);
+  line-height: 1.62;
+}
+
+.step2-final-cta {
+  padding-top: 0;
+}
+
+.step2-final-box {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 30px;
+  background: linear-gradient(135deg, var(--step2-navy), var(--step2-navy-2));
+  padding: clamp(1.5rem, 4vw, 2.4rem);
+  color: #fff;
+  box-shadow: 0 22px 70px rgba(15, 39, 71, 0.22);
+}
+
+.step2-final-box h2,
+.step2-final-box p {
+  color: #fff;
+}
+
+.step2-final-box p:not(.step2-kicker) {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0;
+}
+
+@media (max-width: 980px) {
+  .step2-hero-grid,
+  .step2-system-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .step2-grid-3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .step2-stats-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .step2-instructors {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .step2-hero {
+    padding-top: 3.25rem;
+  }
+
+  .step2-grid-3,
+  .step2-stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .step2-card {
+    min-height: auto;
+  }
+
+  .step2-instructor-card {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .step2-instructor-card img {
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
+  }
+
+  .step2-final-box {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .step2-actions,
+  .step2-final-box .step2-btn {
+    width: 100%;
+  }
+
+  .step2-btn {
+    width: 100%;
+  }
+}
