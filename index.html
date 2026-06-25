@@ -1,57 +1,87 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <base href="/al-hayat-aptitude-skills-hub/">
-  <title>Al-Hayat Aptitude Skills Hub | Skill-Based Aptitude Learning</title>
-  <meta name="description" content="Master aptitude tests through clear lessons, topic-wise practice, expandable explanations, search, and progress tracking.">
-  <link rel="canonical" href="./">
-  <link rel="stylesheet" href="assets/css/styles.css?v=verbal-20260617">
-</head>
-<body>
-  <a class="skip-link" href="#app">Skip to content</a>
-  <header class="site-header" data-site-header>
-    <div class="header-inner">
-      <a class="brand" href="./" aria-label="Al-Hayat Aptitude Skills Hub home">
-        <span class="brand-mark" aria-hidden="true">AH</span>
-        <span class="brand-text">Al-Hayat <strong>Aptitude Skills Hub</strong></span>
-      </a>
-      <form class="header-search" role="search" data-header-search>
-        <label class="sr-only" for="header-search-input">Search skills, topics, questions</label>
-        <input id="header-search-input" name="q" type="search" placeholder="Search skills, topics, questions..." autocomplete="off">
-        <button type="submit">Search</button>
-      </form>
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>Menu</button>
-      <nav class="site-nav" id="site-nav" aria-label="Primary navigation" data-site-nav>
-        <a href="./">Home</a>
-        <a href="skills/">Skills</a>
-        <a href="practice/">Practice</a>
-        <a href="mock-tests/">Mock Tests</a>
-        <a href="progress/">Progress</a>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Al-Hayat Aptitude Skills Hub | Entry Tests, Jobs & Competitive Exams</title>
+    <meta
+      name="description"
+      content="Professional aptitude test preparation for entry tests, scholarships, jobs, verbal reasoning, quantitative reasoning, logical reasoning, analytical reasoning, data interpretation, mock tests, and smart practice."
+    />
+    <meta name="theme-color" content="#0f2747" />
+
+    <meta property="og:title" content="Al-Hayat Aptitude Skills Hub" />
+    <meta
+      property="og:description"
+      content="Master aptitude tests with structured lessons, practice questions, full explanations, mock tests, and progress tracking."
+    />
+    <meta property="og:type" content="website" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css?v=step1-20260625" />
+    <link rel="stylesheet" href="assets/css/homepage-step2.css?v=step2-20260625" />
+  </head>
+  <body>
+    <a class="skip-link" href="#app">Skip to content</a>
+
+    <header class="site-header" data-site-header>
+      <div class="container header-inner">
+        <a class="brand" href="./" aria-label="Al-Hayat Aptitude Skills Hub home">
+          <span class="brand-mark" aria-hidden="true">AH</span>
+          <span>
+            <strong>Al-Hayat Aptitude Skills Hub</strong>
+            <small>Skills • Practice • Mock Tests</small>
+          </span>
+        </a>
+
+        <form class="header-search" data-header-search role="search">
+          <label class="sr-only" for="header-search-input">Search skills, topics, questions</label>
+          <input id="header-search-input" name="q" type="search" placeholder="Search skills, topics, questions" />
+          <button type="submit">Search</button>
+        </form>
+
+        <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-nav">
+          <span class="sr-only">Menu</span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" data-site-nav aria-label="Main navigation">
+          <a href="./">Home</a>
+          <a href="skills/">Skills</a>
+          <a href="practice/">Practice</a>
+          <a href="mock-tests/">Mock Tests</a>
+          <a href="progress/">Progress</a>
+          <a href="resources/">Resources</a>
+          <a href="search/">Search</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="app" tabindex="-1" aria-live="polite">
+      <section class="section">
+        <div class="container">
+          <p class="eyebrow">Loading learning path...</p>
+          <h1>Al-Hayat Aptitude Skills Hub</h1>
+          <p class="lead">Skill-based aptitude learning for admissions, scholarships, hiring, and cognitive assessment preparation.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span data-year></span> Al-Hayat Aptitude Skills Hub. Original practice material for learning and exam preparation.</p>
         <a href="resources/">Resources</a>
-        <a href="search/">Search</a>
-        <a class="login-link" href="#login">Login</a>
-      </nav>
-    </div>
-  </header>
-  <main id="app" tabindex="-1">
-    <section class="loading-state" aria-live="polite">Loading learning path...</section>
-  </main>
-  <footer class="site-footer">
-    <div>
-      <strong>Al-Hayat Aptitude Skills Hub</strong>
-      <p>Skill-based aptitude learning for admissions, scholarships, hiring, and cognitive assessment preparation.</p>
-    </div>
-    <nav aria-label="Footer navigation">
-      <a href="skills/">Skills</a>
-      <a href="practice/">Practice</a>
-      <a href="progress/">Progress</a>
-      <a href="resources/">Resources</a>
-    </nav>
-  </footer>
-  <script type="module" src="assets/js/app.js?v=verbal-20260617"></script>
-</body>
+      </div>
+    </footer>
+
+    <script type="module" src="assets/js/app.js?v=verbal-20260617"></script>
+    <script defer src="assets/js/homepage-step2.js?v=step2-20260625"></script>
+  </body>
 </html>
-
-
