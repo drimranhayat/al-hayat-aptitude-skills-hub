@@ -12,11 +12,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="assets/css/styles.css?v=step3-20260625" />
-    <link rel="stylesheet" href="assets/css/homepage-step3.css?v=step3-20260625" />
+    <link rel="stylesheet" href="assets/css/styles.css?v=step4-final-20260625" />
   </head>
   <body>
-    <a class="skip-link" href="#main-content">Skip to content</a>
+    <a class="skip-link" href="#main">Skip to content</a>
 
     <header class="site-header" data-site-header>
       <div class="container header-inner">
@@ -24,7 +23,7 @@
           <span class="brand-mark" aria-hidden="true">AH</span>
           <span class="brand-text">
             <strong>Al-Hayat Aptitude Skills Hub</strong>
-            <small>Skills • Practice • Mock Tests</small>
+            <small>Entry Tests • Jobs • Competitive Exams</small>
           </span>
         </a>
 
@@ -36,7 +35,7 @@
         </button>
 
         <nav class="site-nav" id="site-nav" data-site-nav aria-label="Main navigation">
-          <a class="active" href="./">Home</a>
+          <a href="./" aria-current="page">Home</a>
           <a href="skills/">Skills</a>
           <a href="practice/">Practice</a>
           <a href="mock-tests/">Mock Tests</a>
@@ -47,137 +46,125 @@
       </div>
     </header>
 
-    <main id="main-content" tabindex="-1">
-      <section class="hero-shell" aria-labelledby="hero-title">
+    <main id="main">
+      <section class="hero-section">
         <div class="container hero-grid">
           <div class="hero-copy">
-            <p class="section-kicker">Professional aptitude preparation</p>
-            <h1 id="hero-title">Master Aptitude Tests with a Clear Study Path</h1>
-            <p class="hero-lead">Prepare for FAST, NTS, GAT, HAT, scholarships, jobs, and competitive exams through skill-wise practice, timed mock tests, and explanation-based learning.</p>
+            <p class="kicker">Professional aptitude preparation</p>
+            <h1>Master Aptitude Tests with Confidence</h1>
+            <p class="hero-lead">Prepare for entry tests, scholarships, jobs, and competitive exams through focused practice, clear explanations, and smart revision.</p>
             <div class="hero-actions" aria-label="Primary actions">
               <a class="btn btn-primary" href="practice/">Start Practice</a>
-              <a class="btn btn-secondary" href="mock-tests/">Take Mock Test</a>
+              <a class="btn btn-secondary" href="mock-tests/">Take a Mock Test</a>
             </div>
             <p class="trust-note">Original practice-style questions for learning. Not copied from official exams.</p>
           </div>
-
-          <aside class="focus-panel" aria-label="Today study path">
-            <div class="focus-panel-head">
-              <span>Today’s Path</span>
-              <strong>One target. One skill. One review.</strong>
-            </div>
+          <aside class="study-card" aria-label="Today's study path">
+            <p class="card-label">Today’s Study Path</p>
+            <h2>Diagnosis → Practice → Review</h2>
             <ol class="path-list">
-              <li><span>1</span><strong>Choose exam path</strong></li>
-              <li><span>2</span><strong>Practice one skill</strong></li>
-              <li><span>3</span><strong>Review explanations</strong></li>
-              <li><span>4</span><strong>Repair mistakes</strong></li>
+              <li><span>1</span><strong>Choose one exam target</strong></li>
+              <li><span>2</span><strong>Study one core skill</strong></li>
+              <li><span>3</span><strong>Practice MCQs with explanation</strong></li>
+              <li><span>4</span><strong>Review mistakes and improve</strong></li>
             </ol>
           </aside>
         </div>
       </section>
 
-      <section class="stats-strip" aria-label="Platform highlights">
+      <section class="stats-section" aria-label="Platform targets">
         <div class="container stats-grid">
           <div><strong>3000+</strong><span>Question bank target</span></div>
           <div><strong>6</strong><span>Exam pathways</span></div>
           <div><strong>8</strong><span>Core skill areas</span></div>
-          <div><strong>100%</strong><span>Explanation-focused</span></div>
+          <div><strong>100%</strong><span>Explanation-focused practice</span></div>
         </div>
       </section>
 
-      <section class="section section-white" aria-labelledby="start-title">
-        <div class="container two-column">
-          <div class="section-head compact">
-            <p class="section-kicker">Start without confusion</p>
-            <h2 id="start-title">A clean learning cycle for serious students</h2>
-            <p>Instead of showing everything at once, the homepage now guides learners through one clear action: select an exam, practice one skill, then review mistakes.</p>
-          </div>
-          <div class="action-stack">
-            <a class="action-card" href="practice/"><span>01</span><strong>Practice MCQs</strong><em>Topic-wise questions with direct explanations.</em></a>
-            <a class="action-card" href="mock-tests/"><span>02</span><strong>Attempt Mock Test</strong><em>Timed test environment for exam readiness.</em></a>
-            <a class="action-card" href="progress/"><span>03</span><strong>Track Progress</strong><em>Accuracy, weak areas, and next study target.</em></a>
-          </div>
-        </div>
-      </section>
-
-      <section class="section section-soft" aria-labelledby="exam-title">
+      <section class="section section-white" id="exam-pathways">
         <div class="container">
-          <div class="section-head centered">
-            <p class="section-kicker">Choose your target</p>
-            <h2 id="exam-title">Exam Pathways</h2>
-            <p>Click one pathway to see the focused preparation plan. This keeps the page clean and avoids distraction.</p>
+          <div class="section-head">
+            <p class="kicker dark">Choose your target</p>
+            <h2>Exam Pathways</h2>
+            <p>Select one pathway. Details open on click, so the page stays clean and focused.</p>
           </div>
 
           <div class="accordion-grid" data-accordion-group>
-            <article class="exam-accordion is-open">
+            <article class="exam-card is-open">
               <button type="button" aria-expanded="true">
-                <span class="card-icon">🎓</span><strong>FAST Entry Test</strong><em>Verbal • Analytical • Quantitative</em>
+                <span class="icon">🎓</span>
+                <span><strong>FAST Entry Test</strong><em>Quantitative, analytical, English, reasoning</em></span>
               </button>
-              <div class="accordion-detail">
-                <p>Focused preparation for university admission: reasoning speed, vocabulary, grammar, arithmetic, algebra, and analytical problem-solving.</p>
-                <a class="text-link" href="practice/?exam=FAST">Practice FAST</a>
+              <div class="exam-detail">
+                <p>Practice algebra, arithmetic, analytical reasoning, sentence correction, vocabulary, and time-based MCQs.</p>
+                <a href="practice/">Practice FAST</a>
               </div>
             </article>
 
-            <article class="exam-accordion">
+            <article class="exam-card">
               <button type="button" aria-expanded="false">
-                <span class="card-icon">📝</span><strong>NTS NAT</strong><em>Entry-test style aptitude</em>
+                <span class="icon">📝</span>
+                <span><strong>NTS NAT</strong><em>Verbal, analytical, quantitative</em></span>
               </button>
-              <div class="accordion-detail" hidden>
-                <p>Practice NAT-style verbal, analytical, and quantitative questions with short explanations and speed-focused drills.</p>
-                <a class="text-link" href="practice/?exam=NTS-NAT">Start NAT Practice</a>
+              <div class="exam-detail" hidden>
+                <p>Prepare through analogy, antonyms, sentence completion, analytical puzzles, arithmetic, and mixed practice.</p>
+                <a href="practice/">Start NAT</a>
               </div>
             </article>
 
-            <article class="exam-accordion">
+            <article class="exam-card">
               <button type="button" aria-expanded="false">
-                <span class="card-icon">📘</span><strong>GAT General</strong><em>Graduate-level reasoning</em>
+                <span class="icon">📘</span>
+                <span><strong>GAT General</strong><em>Graduate-level aptitude</em></span>
               </button>
-              <div class="accordion-detail" hidden>
-                <p>Build advanced verbal reasoning, quantitative reasoning, analytical reasoning, vocabulary, and inference skills.</p>
-                <a class="text-link" href="practice/?exam=GAT">Prepare GAT</a>
+              <div class="exam-detail" hidden>
+                <p>Strengthen verbal reasoning, quantitative reasoning, analytical reasoning, and full-length mock-test stamina.</p>
+                <a href="mock-tests/">Prepare GAT</a>
               </div>
             </article>
 
-            <article class="exam-accordion">
+            <article class="exam-card">
               <button type="button" aria-expanded="false">
-                <span class="card-icon">🏆</span><strong>HEC HAT</strong><em>Scholarship readiness</em>
+                <span class="icon">🏆</span>
+                <span><strong>HEC HAT</strong><em>Scholarship test preparation</em></span>
               </button>
-              <div class="accordion-detail" hidden>
-                <p>Structured scholarship-test preparation with careful focus on reasoning, accuracy, and full-length mock readiness.</p>
-                <a class="text-link" href="practice/?exam=HAT">Prepare HAT</a>
+              <div class="exam-detail" hidden>
+                <p>Build reasoning accuracy, vocabulary control, quantitative basics, and test speed for scholarship exams.</p>
+                <a href="practice/">Prepare HAT</a>
               </div>
             </article>
 
-            <article class="exam-accordion">
+            <article class="exam-card">
               <button type="button" aria-expanded="false">
-                <span class="card-icon">🌍</span><strong>SAT / GRE Style</strong><em>Advanced practice</em>
+                <span class="icon">🌐</span>
+                <span><strong>SAT / GRE Style</strong><em>Advanced verbal and quantitative practice</em></span>
               </button>
-              <div class="accordion-detail" hidden>
-                <p>Higher-level vocabulary, sentence logic, reading, grammar, quantitative comparison, and problem-solving practice.</p>
-                <a class="text-link" href="practice/?exam=GRE">Advanced Practice</a>
+              <div class="exam-detail" hidden>
+                <p>Practice higher-level vocabulary, grammar, reading logic, sentence meaning, and quantitative reasoning.</p>
+                <a href="skills/">Advanced Practice</a>
               </div>
             </article>
 
-            <article class="exam-accordion">
+            <article class="exam-card">
               <button type="button" aria-expanded="false">
-                <span class="card-icon">💼</span><strong>Jobs & Scholarships</strong><em>Screening exams</em>
+                <span class="icon">💼</span>
+                <span><strong>Jobs & Scholarships</strong><em>Recruitment and screening tests</em></span>
               </button>
-              <div class="accordion-detail" hidden>
-                <p>Practice for hiring tests, screening tests, scholarships, professional assessments, and general aptitude exams.</p>
-                <a class="text-link" href="mock-tests/">Take Mock Test</a>
+              <div class="exam-detail" hidden>
+                <p>Prepare for job screening, scholarship aptitude tests, interviews, and reasoning-based assessments.</p>
+                <a href="mock-tests/">Take Mock Test</a>
               </div>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="section section-white" aria-labelledby="skills-title">
+      <section class="section section-soft" id="skills-workspace">
         <div class="container">
           <div class="section-head centered">
-            <p class="section-kicker">Main study area</p>
-            <h2 id="skills-title">Core Aptitude Skills</h2>
-            <p>Only one skill detail opens at a time. The main area remains focused on study and practice.</p>
+            <p class="kicker dark">One skill at a time</p>
+            <h2>Core Aptitude Skills</h2>
+            <p>Choose a skill tab. The main area remains focused on study and practice, not decoration.</p>
           </div>
 
           <div class="skill-workspace">
@@ -186,72 +173,108 @@
               <button type="button" role="tab" aria-selected="false" data-skill-tab="quant">Quantitative</button>
               <button type="button" role="tab" aria-selected="false" data-skill-tab="logical">Logical</button>
               <button type="button" role="tab" aria-selected="false" data-skill-tab="analytical">Analytical</button>
-              <button type="button" role="tab" aria-selected="false" data-skill-tab="data">Data Interpretation</button>
+              <button type="button" role="tab" aria-selected="false" data-skill-tab="di">Data Interpretation</button>
             </div>
 
-            <div class="skill-panel active" data-skill-panel="verbal" role="tabpanel">
-              <div><span class="big-icon">🔤</span><h3>Verbal Reasoning</h3><p>Synonyms, antonyms, analogies, sentence completion, sentence correction, reading comprehension, and critical reasoning.</p></div>
-              <a class="btn btn-primary" href="skills/verbal-reasoning/">Open Verbal Practice</a>
-            </div>
-            <div class="skill-panel" data-skill-panel="quant" role="tabpanel" hidden>
-              <div><span class="big-icon">➗</span><h3>Quantitative Reasoning</h3><p>Arithmetic, ratios, percentages, averages, algebra, series, time-work, speed-distance, and probability.</p></div>
-              <a class="btn btn-primary" href="skills/quantitative-reasoning/">Open Quant Practice</a>
-            </div>
-            <div class="skill-panel" data-skill-panel="logical" role="tabpanel" hidden>
-              <div><span class="big-icon">🧠</span><h3>Logical Reasoning</h3><p>Assumptions, conclusions, inferences, syllogisms, cause-effect, strengthening and weakening arguments.</p></div>
-              <a class="btn btn-primary" href="skills/logical-reasoning/">Open Logical Practice</a>
-            </div>
-            <div class="skill-panel" data-skill-panel="analytical" role="tabpanel" hidden>
-              <div><span class="big-icon">🧩</span><h3>Analytical Reasoning</h3><p>Arrangements, puzzles, coding-decoding, blood relations, direction sense, and pattern-based reasoning.</p></div>
-              <a class="btn btn-primary" href="skills/analytical-reasoning/">Open Analytical Practice</a>
-            </div>
-            <div class="skill-panel" data-skill-panel="data" role="tabpanel" hidden>
-              <div><span class="big-icon">📊</span><h3>Data Interpretation</h3><p>Tables, bar charts, pie charts, line graphs, caselets, comparison, and percentage-based data questions.</p></div>
-              <a class="btn btn-primary" href="skills/data-interpretation/">Open Data Practice</a>
-            </div>
+            <article class="skill-panel active" data-skill-panel="verbal">
+              <span class="big-icon">abc</span>
+              <div>
+                <h3>Verbal Reasoning</h3>
+                <p>Synonyms, antonyms, analogies, sentence completion, sentence correction, vocabulary in context, and reading logic.</p>
+              </div>
+              <a class="btn btn-primary" href="skills/">Open Verbal Skills</a>
+            </article>
+
+            <article class="skill-panel" data-skill-panel="quant" hidden>
+              <span class="big-icon">÷</span>
+              <div>
+                <h3>Quantitative Reasoning</h3>
+                <p>Arithmetic, algebra, percentages, ratios, averages, time and work, speed and distance, and number series.</p>
+              </div>
+              <a class="btn btn-primary" href="practice/">Practice Quant</a>
+            </article>
+
+            <article class="skill-panel" data-skill-panel="logical" hidden>
+              <span class="big-icon">🧠</span>
+              <div>
+                <h3>Logical Reasoning</h3>
+                <p>Assumptions, inferences, syllogisms, cause-effect, statement-conclusion, strengthening and weakening arguments.</p>
+              </div>
+              <a class="btn btn-primary" href="practice/">Practice Logic</a>
+            </article>
+
+            <article class="skill-panel" data-skill-panel="analytical" hidden>
+              <span class="big-icon">♟</span>
+              <div>
+                <h3>Analytical Reasoning</h3>
+                <p>Arrangements, puzzles, blood relations, coding-decoding, direction sense, and rule-based problem solving.</p>
+              </div>
+              <a class="btn btn-primary" href="practice/">Practice Analytical</a>
+            </article>
+
+            <article class="skill-panel" data-skill-panel="di" hidden>
+              <span class="big-icon">📊</span>
+              <div>
+                <h3>Data Interpretation</h3>
+                <p>Tables, bar charts, pie charts, line graphs, percentages, comparison, approximation, and caselets.</p>
+              </div>
+              <a class="btn btn-primary" href="practice/">Practice Data</a>
+            </article>
           </div>
         </div>
       </section>
 
-      <section class="section section-navy" aria-labelledby="method-title">
+      <section class="section section-navy">
         <div class="container two-column">
-          <div class="section-head compact inverse">
-            <p class="section-kicker">Expert preparation method</p>
-            <h2 id="method-title">From weak area to mock-test confidence</h2>
-            <p>The system is designed for serious learners: diagnostic practice, one-skill repair, explanation review, repeated attempts, and final mock-test performance.</p>
+          <div class="section-head inverse">
+            <p class="kicker">A complete learning cycle</p>
+            <h2>From Weakness to Exam Confidence</h2>
+            <p>The platform guides learners through diagnosis, focused lesson, practice MCQs, explanation review, weak-area repair, and mock-test performance.</p>
           </div>
           <div class="check-card-list">
-            <div>✓ Topic-wise practice instead of random overload</div>
-            <div>✓ Full explanation with common mistake alerts</div>
-            <div>✓ Clean mobile layout for daily practice</div>
-            <div>✓ Desktop layout for focused study sessions</div>
+            <div>✓ Topic-wise practice instead of random question overload</div>
+            <div>✓ Full explanations with common mistakes and reasoning traps</div>
+            <div>✓ Mobile-friendly design for daily practice anywhere</div>
+            <div>✓ Desktop-friendly layout for serious study sessions</div>
           </div>
         </div>
       </section>
 
-      <section class="section section-white" aria-labelledby="instructors-title">
+      <section class="section section-white" id="instructors">
         <div class="container">
           <div class="section-head centered">
-            <p class="section-kicker">Guided by experienced teachers</p>
-            <h2 id="instructors-title">Our Instructors</h2>
-            <p>Professional guidance for aptitude, verbal skills, reasoning, exam practice, and learner confidence.</p>
+            <p class="kicker dark">Guidance and mentoring</p>
+            <h2>Our Instructors</h2>
+            <p>Professional academic guidance for aptitude, English, reasoning, grammar, vocabulary, and exam preparation.</p>
           </div>
           <div class="instructor-grid">
             <article class="instructor-card">
-              <img src="assets/images/instructors/dr-imran-hayat.jpg" alt="Dr. Imran Hayat" width="180" height="180" loading="lazy" />
-              <div><h3>Dr. Imran Hayat</h3><p>Lead Instructor</p><span>Aptitude, English, reasoning, academic writing, and structured exam preparation.</span></div>
+              <img src="assets/images/instructors/dr-imran-hayat.jpg" alt="Dr. Imran Hayat" />
+              <div>
+                <h3>Dr. Imran Hayat</h3>
+                <p>Lead Instructor</p>
+                <span>Aptitude, English, reasoning, academic writing, and structured exam preparation.</span>
+              </div>
             </article>
             <article class="instructor-card">
-              <img src="assets/images/instructors/sir-asif-ali.jpg" alt="Sir Asif Ali" width="180" height="180" loading="lazy" />
-              <div><h3>Sir Asif Ali</h3><p>Senior Instructor</p><span>Verbal practice, grammar, vocabulary, reasoning support, and learner-focused preparation.</span></div>
+              <img src="assets/images/instructors/sir-asif-ali.jpg" alt="Sir Asif Ali" />
+              <div>
+                <h3>Sir Asif Ali</h3>
+                <p>Senior Instructor</p>
+                <span>Verbal practice, grammar, vocabulary, reasoning support, and learner-focused preparation.</span>
+              </div>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="section section-soft final-area" aria-labelledby="final-title">
+      <section class="section section-soft final-area">
         <div class="container final-box">
-          <div><p class="section-kicker">Begin now</p><h2 id="final-title">Start with one practice session.</h2><p>Choose one skill, attempt questions, read explanations, and repair mistakes before moving to the next level.</p></div>
+          <div>
+            <p class="kicker dark">One clear action</p>
+            <h2>Begin your aptitude preparation today.</h2>
+            <p>Practice one skill, review every mistake, and move gradually toward full mock-test readiness.</p>
+          </div>
           <a class="btn btn-primary" href="practice/">Start Practice</a>
         </div>
       </section>
@@ -264,6 +287,6 @@
       </div>
     </footer>
 
-    <script defer src="assets/js/homepage-step3.js?v=step3-20260625"></script>
+    <script src="assets/js/homepage-step4.js?v=step4-final-20260625" defer></script>
   </body>
 </html>
