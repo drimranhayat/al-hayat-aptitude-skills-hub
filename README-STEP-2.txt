@@ -1,20 +1,23 @@
-STEP 2 — Homepage wording, layout, and instructor photos
+AL-HAYAT APTITUDE SKILLS HUB - STEP 2 FULL HOMEPAGE UPDATE
 
-Replace/add these files in your repository:
+Upload/replace these files in your GitHub repository:
 
-1) Replace:
-   index.html
+1. index.html
+2. assets/js/homepage-step2.js
+3. assets/css/homepage-step2.css
+4. assets/images/instructors/dr-imran-hayat.jpg
+5. assets/images/instructors/sir-asif-ali.jpg
 
-2) Add:
-   assets/js/homepage-step2.js
-   assets/css/homepage-step2.css
-   assets/images/instructors/dr-imran-hayat.jpg
-   assets/images/instructors/sir-asif-ali.jpg
+Important:
+- The image file names must be exactly the same, all lowercase, with hyphens.
+- GitHub Pages is case-sensitive.
+- After upload, open the live website and press Ctrl + F5.
 
-Git commands:
-
-git add index.html assets/js/homepage-step2.js assets/css/homepage-step2.css assets/images/instructors/dr-imran-hayat.jpg assets/images/instructors/sir-asif-ali.jpg
-git commit -m "Upgrade homepage layout and add instructor section"
-git push
-
-After pushing, wait 1-3 minutes for GitHub Pages to rebuild. Then open the homepage on mobile and desktop.
+What this fixes:
+- Correct homepage detection so Step 2 does not accidentally render on every subpage.
+- Professional homepage wording and layout.
+- Instructor image paths and real instructor images.
+- Search form functionality.
+- Mobile menu fallback functionality.
+- Footer year update.
+- Professional fallback initials if an image path is broken.
