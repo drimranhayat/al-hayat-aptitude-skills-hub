@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Redirecting | Al-Hayat Aptitude</title>
+    <script>
+      (function(){
+        var repo = 'al-hayat-aptitude-skills-hub';
+        var duplicate = new RegExp('/' + repo + '/(?:' + repo + '/)+');
+        if(duplicate.test(location.pathname)){
+          location.replace(location.pathname.replace(duplicate, '/' + repo + '/') + location.search + location.hash);
+          return;
+        }
+        if(!location.pathname.endsWith('/index.html') && !location.pathname.endsWith('/')){
+          location.replace(location.pathname.replace(/\/?$/, '/index.html') + location.search + location.hash);
+        }
+      })();
+    </script>
+    <link rel="stylesheet" href="/al-hayat-aptitude-skills-hub/assets/css/style.css">
+  </head>
+  <body>
+    <main class="section">
+      <div class="wrap page-hero">
+        <span class="eyebrow">Page not found</span>
+        <h1 class="h1">Opening the correct page...</h1>
+        <p class="lead">If this page does not redirect, open the home page and use the menu again.</p>
+        <a class="btn primary" href="/al-hayat-aptitude-skills-hub/index.html">Open Home</a>
+      </div>
+    </main>
+  </body>
+</html>

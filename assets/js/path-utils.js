@@ -8,13 +8,16 @@ export function getBasePath(){
 export function siteUrl(target=''){
   if(!target || target === '/') return getBasePath();
   if(/^(https?:|mailto:|tel:|#)/i.test(target)) return target;
-  return getBasePath() + String(target).replace(/^\/+/, '');
+  const cleanTarget = String(target)
+    .replace(/^\/+/, '')
+    .replace(new RegExp(`^(${REPO_NAME}/)+`), '');
+  return getBasePath() + cleanTarget;
 }
 
 export function stripBasePath(pathname=window.location.pathname){
-  const base = getBasePath();
-  if(base !== '/' && pathname.startsWith(base)) return pathname.slice(base.length);
-  return pathname.replace(/^\/+/, '');
+  let path = pathname.replace(/^\/+/, '');
+  path = path.replace(new RegExp(`^(${REPO_NAME}/)+`), '');
+  return path;
 }
 
 export function fixInternalLinks(root=document){
