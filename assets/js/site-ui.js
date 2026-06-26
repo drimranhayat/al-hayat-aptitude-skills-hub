@@ -1,15 +1,19 @@
 import { fixInternalLinks } from './path-utils.js';
 
-export function initSiteUI(){
+document.addEventListener('DOMContentLoaded',()=>{
   fixInternalLinks(document);
-  const btn=document.querySelector('[data-menu-btn]');
-  const nav=document.querySelector('[data-navlinks]');
-  btn?.addEventListener('click',()=>nav?.classList.toggle('open'));
-  const path = location.pathname.replace(/\/$/,'');
-  document.querySelectorAll('.navlinks a').forEach(a=>{
-    const href=a.href.replace(/\/$/,'');
-    if(href && path && href.endsWith(path.split('/').pop() || 'index.html')) a.classList.add('active');
-  });
-}
 
-document.addEventListener('DOMContentLoaded', initSiteUI);
+  const menuButton = document.querySelector('.menu-btn');
+  const nav = document.querySelector('.navlinks');
+  menuButton?.addEventListener('click',()=>{
+    const open = nav?.classList.toggle('open');
+    menuButton.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+
+  document.addEventListener('click',(event)=>{
+    if(!nav || !menuButton) return;
+    if(nav.contains(event.target) || menuButton.contains(event.target)) return;
+    nav.classList.remove('open');
+    menuButton.setAttribute('aria-expanded','false');
+  });
+});

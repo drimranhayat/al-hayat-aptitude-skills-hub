@@ -1,25 +1,56 @@
-import { siteUrl } from './path-utils.js';
+import { siteUrl, stripBasePath } from './path-utils.js';
 
-export function renderHeader(){
-  const el=document.querySelector('[data-header]');
-  if(!el) return;
-  el.innerHTML=`
-  <header class="topbar"><div class="wrap nav">
-    <a class="brand" href="${siteUrl('index.html')}"><span class="logo">AH</span><span>Al-Hayat Aptitude</span></a>
-    <button class="menu-btn" data-menu-btn>☰ Menu</button>
-    <nav class="navlinks" data-navlinks>
-      <a href="${siteUrl('index.html')}">Home</a>
-      <a href="${siteUrl('skills/index.html')}">Skills</a>
-      <a href="${siteUrl('practice/index.html')}">Practice</a>
-      <a href="${siteUrl('mock-tests/index.html')}">Mock Tests</a>
-      <a href="${siteUrl('progress/index.html')}">Progress</a>
-      <a href="${siteUrl('resources/index.html')}">Resources</a>
-      <a href="${siteUrl('search/index.html')}">Search</a>
-    </nav>
-  </div></header>`;
+const navItems = [
+  ['Home','index.html'],
+  ['Skills','skills/index.html'],
+  ['Practice','practice/index.html'],
+  ['Mock Tests','mock-tests/index.html'],
+  ['Progress','progress/index.html'],
+  ['Resources','resources/index.html'],
+  ['Search','search/index.html'],
+  ['Tools','tools/index.html']
+];
+
+function isActive(target){
+  const current = stripBasePath() || 'index.html';
+  const cleanTarget = target.replace(/^\/+/, '');
+  if(cleanTarget === 'index.html') return current === '' || current === 'index.html';
+  return current.startsWith(cleanTarget.replace('index.html',''));
 }
-export function renderFooter(){
- const el=document.querySelector('[data-footer]'); if(!el) return;
- el.innerHTML=`<footer class="footer"><div class="wrap"><strong>Al-Hayat Aptitude Skills Hub</strong><br>Clean, exam-oriented preparation for entrance tests, scholarships, and competitive exams.</div></footer>`;
+
+function renderHeader(){
+  const host = document.querySelector('[data-header]');
+  if(!host) return;
+  host.innerHTML = `
+    <header class="topbar">
+      <nav class="wrap nav" aria-label="Main navigation">
+        <a class="brand" href="${siteUrl('index.html')}">
+          <span class="logo">AH</span>
+          <span>Al-Hayat Aptitude<small>Skills • Practice • Tests</small></span>
+        </a>
+        <button class="menu-btn" type="button" aria-expanded="false" aria-controls="siteNav">Menu</button>
+        <div class="navlinks" id="siteNav">
+          ${navItems.map(([label,target])=>`<a class="${isActive(target) ? 'active' : ''}" href="${siteUrl(target)}">${label}</a>`).join('')}
+        </div>
+      </nav>
+    </header>
+  `;
 }
-document.addEventListener('DOMContentLoaded',()=>{renderHeader();renderFooter();});
+
+function renderFooter(){
+  const host = document.querySelector('[data-footer]');
+  if(!host) return;
+  host.innerHTML = `
+    <footer class="footer">
+      <div class="wrap">
+        <span>Al-Hayat Aptitude Skills Hub</span>
+        <span>Clean exam preparation for serious learners.</span>
+      </div>
+    </footer>
+  `;
+}
+
+document.addEventListener('DOMContentLoaded',()=>{
+  renderHeader();
+  renderFooter();
+});

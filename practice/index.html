@@ -1,1 +1,59 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Practice | Al-Hayat Aptitude Skills Hub</title><meta name="description" content="World-class aptitude preparation for FAST, NTS, GAT, HAT, jobs, scholarships and competitive exams."><link rel="stylesheet" href="/al-hayat-aptitude-skills-hub/assets/css/style.css"></head><body><div data-header></div><main class="section"><div class="wrap"><h1 class="h1">Practice Engine</h1><p class="lead">One focused question at a time. Filter by skill, difficulty, exam, and keyword.</p><div class="scorebox"><div class="mini"><strong id="totalQuestions">0</strong>Total</div><div class="mini"><strong id="attempted">0</strong>Attempted</div><div class="mini"><strong id="correct">0</strong>Correct</div><div class="mini"><strong id="wrong">0</strong>Wrong</div></div><div class="layout"><aside class="sidebar panel"><h3>Filters</h3><div class="field"><label>Search</label><input id="practiceSearch" placeholder="synonym, percentage, FAST..."></div><div class="field"><label>Skill</label><select id="skillFilter"></select></div><div class="field"><label>Difficulty</label><select id="difficultyFilter"></select></div><div class="field"><label>Exam</label><select id="examFilter"></select></div><button class="btn secondary" id="resetFilters">Reset Filters</button></aside><section data-practice-app><div class="loading">Loading practice...</div></section></div></div></main><div data-footer></div><script type="module" src="/al-hayat-aptitude-skills-hub/assets/js/app.js"></script><script type="module" src="/al-hayat-aptitude-skills-hub/assets/js/practice-engine.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Practice Engine | Al-Hayat Aptitude</title>
+    <meta name="description" content="One-question-at-a-time aptitude practice with filters, explanations, progress and bookmarks.">
+    <link rel="stylesheet" href="/al-hayat-aptitude-skills-hub/assets/css/style.css">
+  </head>
+  <body>
+    <div data-header></div>
+    <main class="section">
+      <div class="wrap page-hero compact">
+        <span class="eyebrow">Practice engine</span>
+        <h1 class="h1">Focused practice. Clear feedback. No clutter.</h1>
+        <p class="lead">Filter by skill, difficulty, exam, or keyword. Solve one question, check the answer, read the explanation, and move forward.</p>
+      </div>
+      <div class="wrap">
+        <div class="scorebox">
+          <div class="mini"><strong id="totalQuestions">0</strong><span>Total</span></div>
+          <div class="mini"><strong id="attempted">0</strong><span>Attempted</span></div>
+          <div class="mini"><strong id="correct">0</strong><span>Correct</span></div>
+          <div class="mini"><strong id="wrong">0</strong><span>Wrong</span></div>
+        </div>
+        <div class="layout">
+          <aside class="sidebar panel">
+            <div class="sidebar-title">
+              <h2>Filters</h2>
+              <span>Target practice</span>
+            </div>
+            <div class="field">
+              <label for="practiceSearch">Search</label>
+              <input id="practiceSearch" placeholder="synonym, percentage, FAST...">
+            </div>
+            <div class="field">
+              <label for="skillFilter">Skill</label>
+              <select id="skillFilter"></select>
+            </div>
+            <div class="field">
+              <label for="difficultyFilter">Difficulty</label>
+              <select id="difficultyFilter"></select>
+            </div>
+            <div class="field">
+              <label for="examFilter">Exam</label>
+              <select id="examFilter"></select>
+            </div>
+            <button class="btn secondary full" id="resetFilters">Reset Filters</button>
+          </aside>
+          <section class="practice-shell" data-practice-app>
+            <div class="loading">Loading practice...</div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <div data-footer></div>
+    <script type="module" src="/al-hayat-aptitude-skills-hub/assets/js/app.js"></script>
+    <script type="module" src="/al-hayat-aptitude-skills-hub/assets/js/practice-engine.js"></script>
+  </body>
+</html>
