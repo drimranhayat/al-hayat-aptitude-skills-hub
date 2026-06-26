@@ -1,0 +1,964 @@
+{
+  "questions": [
+    {
+      "id": "DI-TAB-001",
+      "skillCategory": "data-interpretation",
+      "skill": "Data Interpretation",
+      "topic": "Tables",
+      "subTopic": "Tables",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Tables",
+      "questionText": "A class has 21 boys and 16 girls. What is the total number of students?",
+      "options": [
+        {
+          "id": "A",
+          "text": "37"
+        },
+        {
+          "id": "B",
+          "text": "36"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "21"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Add boys and girls: 21 + 16 = 37.",
+      "fullExplanation": {
+        "correctAnswer": "Add boys and girls: 21 + 16 = 37."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Data Interpretation",
+        "Tables",
+        "Medium"
+      ]
+    },
+    {
+      "id": "DI-TAB-002",
+      "skillCategory": "data-interpretation",
+      "skill": "Data Interpretation",
+      "topic": "Tables",
+      "subTopic": "Tables",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Tables",
+      "questionText": "A class has 22 boys and 17 girls. What is the total number of students?",
+      "options": [
+        {
+          "id": "A",
+          "text": "39"
+        },
+        {
+          "id": "B",
+          "text": "37"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "22"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Add boys and girls: 22 + 17 = 39.",
+      "fullExplanation": {
+        "correctAnswer": "Add boys and girls: 22 + 17 = 39."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Data Interpretation",
+        "Tables",
+        "Medium"
+      ]
+    },
+    {
+      "id": "DI-TAB-003",
+      "skillCategory": "data-interpretation",
+      "skill": "Data Interpretation",
+      "topic": "Tables",
+      "subTopic": "Tables",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Tables",
+      "questionText": "A class has 23 boys and 18 girls. What is the total number of students?",
+      "options": [
+        {
+          "id": "A",
+          "text": "41"
+        },
+        {
+          "id": "B",
+          "text": "38"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "23"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Add boys and girls: 23 + 18 = 41.",
+      "fullExplanation": {
+        "correctAnswer": "Add boys and girls: 23 + 18 = 41."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Data Interpretation",
+        "Tables",
+        "Medium"
+      ]
+    },
+    {
+      "id": "DI-TAB-004",
+      "skillCategory": "data-interpretation",
+      "skill": "Data Interpretation",
+      "topic": "Tables",
+      "subTopic": "Tables",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Tables",
+      "questionText": "A class has 24 boys and 19 girls. What is the total number of students?",
+      "options": [
+        {
+          "id": "A",
+          "text": "43"
+        },
+        {
+          "id": "B",
+          "text": "39"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "24"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Add boys and girls: 24 + 19 = 43.",
+      "fullExplanation": {
+        "correctAnswer": "Add boys and girls: 24 + 19 = 43."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Data Interpretation",
+        "Tables",
+        "Medium"
+      ]
+    },
+    {
+      "id": "DI-TAB-005",
+      "skillCategory": "data-interpretation",
+      "skill": "Data Interpretation",
+      "topic": "Tables",
+      "subTopic": "Tables",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Tables",
+      "questionText": "A class has 25 boys and 20 girls. What is the total number of students?",
+      "options": [
+        {
+          "id": "A",
+          "text": "45"
+        },
+        {
+          "id": "B",
+          "text": "40"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "25"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Add boys and girls: 25 + 20 = 45.",
+      "fullExplanation": {
+        "correctAnswer": "Add boys and girls: 25 + 20 = 45."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Data Interpretation",
+        "Tables",
+        "Medium"
+      ]
+    },
+    {
+      "id": "DI-TAB-006",
+      "skillCategory": "data-interpretation",
+      "skill": "Data Interpretation",
+      "topic": "Tables",
+      "subTopic": "Tables",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Tables",
+      "questionText": "A class has 26 boys and 21 girls. What is the total number of students?",
+      "options": [
+        {
+          "id": "A",
+          "text": "47"
+        },
+        {
+          "id": "B",
+          "text": "41"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "26"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Add boys and girls: 26 + 21 = 47.",
+      "fullExplanation": {
+        "correctAnswer": "Add boys and girls: 26 + 21 = 47."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Data Interpretation",
+        "Tables",
+        "Medium"
+      ]
+    },
+    {
+      "id": "DI-TAB-007",
+      "skillCategory": "data-interpretation",
+      "skill": "Data Interpretation",
+      "topic": "Tables",
+      "subTopic": "Tables",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Tables",
+      "questionText": "A class has 27 boys and 22 girls. What is the total number of students?",
+      "options": [
+        {
+          "id": "A",
+          "text": "49"
+        },
+        {
+          "id": "B",
+          "text": "42"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "27"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Add boys and girls: 27 + 22 = 49.",
+      "fullExplanation": {
+        "correctAnswer": "Add boys and girls: 27 + 22 = 49."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Data Interpretation",
+        "Tables",
+        "Medium"
+      ]
+    },
+    {
+      "id": "DI-TAB-008",
+      "skillCategory": "data-interpretation",
+      "skill": "Data Interpretation",
+      "topic": "Tables",
+      "subTopic": "Tables",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Tables",
+      "questionText": "A class has 28 boys and 23 girls. What is the total number of students?",
+      "options": [
+        {
+          "id": "A",
+          "text": "51"
+        },
+        {
+          "id": "B",
+          "text": "43"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "28"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Add boys and girls: 28 + 23 = 51.",
+      "fullExplanation": {
+        "correctAnswer": "Add boys and girls: 28 + 23 = 51."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Data Interpretation",
+        "Tables",
+        "Medium"
+      ]
+    },
+    {
+      "id": "DI-TAB-009",
+      "skillCategory": "data-interpretation",
+      "skill": "Data Interpretation",
+      "topic": "Tables",
+      "subTopic": "Tables",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Tables",
+      "questionText": "A class has 29 boys and 24 girls. What is the total number of students?",
+      "options": [
+        {
+          "id": "A",
+          "text": "53"
+        },
+        {
+          "id": "B",
+          "text": "44"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "29"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Add boys and girls: 29 + 24 = 53.",
+      "fullExplanation": {
+        "correctAnswer": "Add boys and girls: 29 + 24 = 53."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Data Interpretation",
+        "Tables",
+        "Medium"
+      ]
+    },
+    {
+      "id": "DI-TAB-010",
+      "skillCategory": "data-interpretation",
+      "skill": "Data Interpretation",
+      "topic": "Tables",
+      "subTopic": "Tables",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Tables",
+      "questionText": "A class has 30 boys and 25 girls. What is the total number of students?",
+      "options": [
+        {
+          "id": "A",
+          "text": "55"
+        },
+        {
+          "id": "B",
+          "text": "45"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "30"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Add boys and girls: 30 + 25 = 55.",
+      "fullExplanation": {
+        "correctAnswer": "Add boys and girls: 30 + 25 = 55."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Data Interpretation",
+        "Tables",
+        "Medium"
+      ]
+    },
+    {
+      "id": "DI-TAB-011",
+      "skillCategory": "data-interpretation",
+      "skill": "Data Interpretation",
+      "topic": "Tables",
+      "subTopic": "Tables",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Tables",
+      "questionText": "A class has 31 boys and 26 girls. What is the total number of students?",
+      "options": [
+        {
+          "id": "A",
+          "text": "57"
+        },
+        {
+          "id": "B",
+          "text": "46"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "31"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Add boys and girls: 31 + 26 = 57.",
+      "fullExplanation": {
+        "correctAnswer": "Add boys and girls: 31 + 26 = 57."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Data Interpretation",
+        "Tables",
+        "Medium"
+      ]
+    },
+    {
+      "id": "DI-TAB-012",
+      "skillCategory": "data-interpretation",
+      "skill": "Data Interpretation",
+      "topic": "Tables",
+      "subTopic": "Tables",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Tables",
+      "questionText": "A class has 32 boys and 27 girls. What is the total number of students?",
+      "options": [
+        {
+          "id": "A",
+          "text": "59"
+        },
+        {
+          "id": "B",
+          "text": "47"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "32"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Add boys and girls: 32 + 27 = 59.",
+      "fullExplanation": {
+        "correctAnswer": "Add boys and girls: 32 + 27 = 59."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Data Interpretation",
+        "Tables",
+        "Medium"
+      ]
+    },
+    {
+      "id": "DI-TAB-013",
+      "skillCategory": "data-interpretation",
+      "skill": "Data Interpretation",
+      "topic": "Tables",
+      "subTopic": "Tables",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Tables",
+      "questionText": "A class has 33 boys and 28 girls. What is the total number of students?",
+      "options": [
+        {
+          "id": "A",
+          "text": "61"
+        },
+        {
+          "id": "B",
+          "text": "48"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "33"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Add boys and girls: 33 + 28 = 61.",
+      "fullExplanation": {
+        "correctAnswer": "Add boys and girls: 33 + 28 = 61."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Data Interpretation",
+        "Tables",
+        "Medium"
+      ]
+    },
+    {
+      "id": "DI-TAB-014",
+      "skillCategory": "data-interpretation",
+      "skill": "Data Interpretation",
+      "topic": "Tables",
+      "subTopic": "Tables",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Tables",
+      "questionText": "A class has 34 boys and 29 girls. What is the total number of students?",
+      "options": [
+        {
+          "id": "A",
+          "text": "63"
+        },
+        {
+          "id": "B",
+          "text": "49"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "34"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Add boys and girls: 34 + 29 = 63.",
+      "fullExplanation": {
+        "correctAnswer": "Add boys and girls: 34 + 29 = 63."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Data Interpretation",
+        "Tables",
+        "Medium"
+      ]
+    },
+    {
+      "id": "DI-TAB-015",
+      "skillCategory": "data-interpretation",
+      "skill": "Data Interpretation",
+      "topic": "Tables",
+      "subTopic": "Tables",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Tables",
+      "questionText": "A class has 35 boys and 30 girls. What is the total number of students?",
+      "options": [
+        {
+          "id": "A",
+          "text": "65"
+        },
+        {
+          "id": "B",
+          "text": "50"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "35"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Add boys and girls: 35 + 30 = 65.",
+      "fullExplanation": {
+        "correctAnswer": "Add boys and girls: 35 + 30 = 65."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Data Interpretation",
+        "Tables",
+        "Medium"
+      ]
+    },
+    {
+      "id": "DI-TAB-016",
+      "skillCategory": "data-interpretation",
+      "skill": "Data Interpretation",
+      "topic": "Tables",
+      "subTopic": "Tables",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Tables",
+      "questionText": "A class has 36 boys and 31 girls. What is the total number of students?",
+      "options": [
+        {
+          "id": "A",
+          "text": "67"
+        },
+        {
+          "id": "B",
+          "text": "51"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "36"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Add boys and girls: 36 + 31 = 67.",
+      "fullExplanation": {
+        "correctAnswer": "Add boys and girls: 36 + 31 = 67."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Data Interpretation",
+        "Tables",
+        "Medium"
+      ]
+    },
+    {
+      "id": "DI-TAB-017",
+      "skillCategory": "data-interpretation",
+      "skill": "Data Interpretation",
+      "topic": "Tables",
+      "subTopic": "Tables",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Tables",
+      "questionText": "A class has 37 boys and 32 girls. What is the total number of students?",
+      "options": [
+        {
+          "id": "A",
+          "text": "69"
+        },
+        {
+          "id": "B",
+          "text": "52"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "37"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Add boys and girls: 37 + 32 = 69.",
+      "fullExplanation": {
+        "correctAnswer": "Add boys and girls: 37 + 32 = 69."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Data Interpretation",
+        "Tables",
+        "Medium"
+      ]
+    },
+    {
+      "id": "DI-TAB-018",
+      "skillCategory": "data-interpretation",
+      "skill": "Data Interpretation",
+      "topic": "Tables",
+      "subTopic": "Tables",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Tables",
+      "questionText": "A class has 38 boys and 33 girls. What is the total number of students?",
+      "options": [
+        {
+          "id": "A",
+          "text": "71"
+        },
+        {
+          "id": "B",
+          "text": "53"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "38"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Add boys and girls: 38 + 33 = 71.",
+      "fullExplanation": {
+        "correctAnswer": "Add boys and girls: 38 + 33 = 71."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Data Interpretation",
+        "Tables",
+        "Medium"
+      ]
+    },
+    {
+      "id": "DI-TAB-019",
+      "skillCategory": "data-interpretation",
+      "skill": "Data Interpretation",
+      "topic": "Tables",
+      "subTopic": "Tables",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Tables",
+      "questionText": "A class has 39 boys and 34 girls. What is the total number of students?",
+      "options": [
+        {
+          "id": "A",
+          "text": "73"
+        },
+        {
+          "id": "B",
+          "text": "54"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "39"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Add boys and girls: 39 + 34 = 73.",
+      "fullExplanation": {
+        "correctAnswer": "Add boys and girls: 39 + 34 = 73."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Data Interpretation",
+        "Tables",
+        "Medium"
+      ]
+    },
+    {
+      "id": "DI-TAB-020",
+      "skillCategory": "data-interpretation",
+      "skill": "Data Interpretation",
+      "topic": "Tables",
+      "subTopic": "Tables",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Tables",
+      "questionText": "A class has 40 boys and 35 girls. What is the total number of students?",
+      "options": [
+        {
+          "id": "A",
+          "text": "75"
+        },
+        {
+          "id": "B",
+          "text": "55"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "40"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Add boys and girls: 40 + 35 = 75.",
+      "fullExplanation": {
+        "correctAnswer": "Add boys and girls: 40 + 35 = 75."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Data Interpretation",
+        "Tables",
+        "Medium"
+      ]
+    }
+  ]
+}

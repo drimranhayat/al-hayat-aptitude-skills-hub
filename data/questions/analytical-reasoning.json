@@ -1,0 +1,964 @@
+{
+  "questions": [
+    {
+      "id": "AR-ORD-001",
+      "skillCategory": "analytical-reasoning",
+      "skill": "Analytical Reasoning",
+      "topic": "Ordering",
+      "subTopic": "Ordering",
+      "level": "Exam Prep",
+      "difficulty": "Hard",
+      "questionType": "Ordering",
+      "questionText": "Ali, Bilal, and Chen stand in a line. Ali is before Bilal. Chen is after Bilal. Who is last?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ali"
+        },
+        {
+          "id": "B",
+          "text": "Bilal"
+        },
+        {
+          "id": "C",
+          "text": "Chen"
+        },
+        {
+          "id": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correctAnswer": "C",
+      "shortExplanation": "The order must be Ali, Bilal, Chen, so Chen is last.",
+      "fullExplanation": {
+        "correctAnswer": "The order must be Ali, Bilal, Chen, so Chen is last."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Analytical Reasoning",
+        "Ordering",
+        "Hard"
+      ]
+    },
+    {
+      "id": "AR-ORD-002",
+      "skillCategory": "analytical-reasoning",
+      "skill": "Analytical Reasoning",
+      "topic": "Ordering",
+      "subTopic": "Ordering",
+      "level": "Exam Prep",
+      "difficulty": "Hard",
+      "questionType": "Ordering",
+      "questionText": "Ali, Bilal, and Chen stand in a line. Ali is before Bilal. Chen is after Bilal. Who is last?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ali"
+        },
+        {
+          "id": "B",
+          "text": "Bilal"
+        },
+        {
+          "id": "C",
+          "text": "Chen"
+        },
+        {
+          "id": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correctAnswer": "C",
+      "shortExplanation": "The order must be Ali, Bilal, Chen, so Chen is last.",
+      "fullExplanation": {
+        "correctAnswer": "The order must be Ali, Bilal, Chen, so Chen is last."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Analytical Reasoning",
+        "Ordering",
+        "Hard"
+      ]
+    },
+    {
+      "id": "AR-ORD-003",
+      "skillCategory": "analytical-reasoning",
+      "skill": "Analytical Reasoning",
+      "topic": "Ordering",
+      "subTopic": "Ordering",
+      "level": "Exam Prep",
+      "difficulty": "Hard",
+      "questionType": "Ordering",
+      "questionText": "Ali, Bilal, and Chen stand in a line. Ali is before Bilal. Chen is after Bilal. Who is last?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ali"
+        },
+        {
+          "id": "B",
+          "text": "Bilal"
+        },
+        {
+          "id": "C",
+          "text": "Chen"
+        },
+        {
+          "id": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correctAnswer": "C",
+      "shortExplanation": "The order must be Ali, Bilal, Chen, so Chen is last.",
+      "fullExplanation": {
+        "correctAnswer": "The order must be Ali, Bilal, Chen, so Chen is last."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Analytical Reasoning",
+        "Ordering",
+        "Hard"
+      ]
+    },
+    {
+      "id": "AR-ORD-004",
+      "skillCategory": "analytical-reasoning",
+      "skill": "Analytical Reasoning",
+      "topic": "Ordering",
+      "subTopic": "Ordering",
+      "level": "Exam Prep",
+      "difficulty": "Hard",
+      "questionType": "Ordering",
+      "questionText": "Ali, Bilal, and Chen stand in a line. Ali is before Bilal. Chen is after Bilal. Who is last?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ali"
+        },
+        {
+          "id": "B",
+          "text": "Bilal"
+        },
+        {
+          "id": "C",
+          "text": "Chen"
+        },
+        {
+          "id": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correctAnswer": "C",
+      "shortExplanation": "The order must be Ali, Bilal, Chen, so Chen is last.",
+      "fullExplanation": {
+        "correctAnswer": "The order must be Ali, Bilal, Chen, so Chen is last."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Analytical Reasoning",
+        "Ordering",
+        "Hard"
+      ]
+    },
+    {
+      "id": "AR-ORD-005",
+      "skillCategory": "analytical-reasoning",
+      "skill": "Analytical Reasoning",
+      "topic": "Ordering",
+      "subTopic": "Ordering",
+      "level": "Exam Prep",
+      "difficulty": "Hard",
+      "questionType": "Ordering",
+      "questionText": "Ali, Bilal, and Chen stand in a line. Ali is before Bilal. Chen is after Bilal. Who is last?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ali"
+        },
+        {
+          "id": "B",
+          "text": "Bilal"
+        },
+        {
+          "id": "C",
+          "text": "Chen"
+        },
+        {
+          "id": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correctAnswer": "C",
+      "shortExplanation": "The order must be Ali, Bilal, Chen, so Chen is last.",
+      "fullExplanation": {
+        "correctAnswer": "The order must be Ali, Bilal, Chen, so Chen is last."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Analytical Reasoning",
+        "Ordering",
+        "Hard"
+      ]
+    },
+    {
+      "id": "AR-ORD-006",
+      "skillCategory": "analytical-reasoning",
+      "skill": "Analytical Reasoning",
+      "topic": "Ordering",
+      "subTopic": "Ordering",
+      "level": "Exam Prep",
+      "difficulty": "Hard",
+      "questionType": "Ordering",
+      "questionText": "Ali, Bilal, and Chen stand in a line. Ali is before Bilal. Chen is after Bilal. Who is last?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ali"
+        },
+        {
+          "id": "B",
+          "text": "Bilal"
+        },
+        {
+          "id": "C",
+          "text": "Chen"
+        },
+        {
+          "id": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correctAnswer": "C",
+      "shortExplanation": "The order must be Ali, Bilal, Chen, so Chen is last.",
+      "fullExplanation": {
+        "correctAnswer": "The order must be Ali, Bilal, Chen, so Chen is last."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Analytical Reasoning",
+        "Ordering",
+        "Hard"
+      ]
+    },
+    {
+      "id": "AR-ORD-007",
+      "skillCategory": "analytical-reasoning",
+      "skill": "Analytical Reasoning",
+      "topic": "Ordering",
+      "subTopic": "Ordering",
+      "level": "Exam Prep",
+      "difficulty": "Hard",
+      "questionType": "Ordering",
+      "questionText": "Ali, Bilal, and Chen stand in a line. Ali is before Bilal. Chen is after Bilal. Who is last?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ali"
+        },
+        {
+          "id": "B",
+          "text": "Bilal"
+        },
+        {
+          "id": "C",
+          "text": "Chen"
+        },
+        {
+          "id": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correctAnswer": "C",
+      "shortExplanation": "The order must be Ali, Bilal, Chen, so Chen is last.",
+      "fullExplanation": {
+        "correctAnswer": "The order must be Ali, Bilal, Chen, so Chen is last."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Analytical Reasoning",
+        "Ordering",
+        "Hard"
+      ]
+    },
+    {
+      "id": "AR-ORD-008",
+      "skillCategory": "analytical-reasoning",
+      "skill": "Analytical Reasoning",
+      "topic": "Ordering",
+      "subTopic": "Ordering",
+      "level": "Exam Prep",
+      "difficulty": "Hard",
+      "questionType": "Ordering",
+      "questionText": "Ali, Bilal, and Chen stand in a line. Ali is before Bilal. Chen is after Bilal. Who is last?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ali"
+        },
+        {
+          "id": "B",
+          "text": "Bilal"
+        },
+        {
+          "id": "C",
+          "text": "Chen"
+        },
+        {
+          "id": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correctAnswer": "C",
+      "shortExplanation": "The order must be Ali, Bilal, Chen, so Chen is last.",
+      "fullExplanation": {
+        "correctAnswer": "The order must be Ali, Bilal, Chen, so Chen is last."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Analytical Reasoning",
+        "Ordering",
+        "Hard"
+      ]
+    },
+    {
+      "id": "AR-ORD-009",
+      "skillCategory": "analytical-reasoning",
+      "skill": "Analytical Reasoning",
+      "topic": "Ordering",
+      "subTopic": "Ordering",
+      "level": "Exam Prep",
+      "difficulty": "Hard",
+      "questionType": "Ordering",
+      "questionText": "Ali, Bilal, and Chen stand in a line. Ali is before Bilal. Chen is after Bilal. Who is last?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ali"
+        },
+        {
+          "id": "B",
+          "text": "Bilal"
+        },
+        {
+          "id": "C",
+          "text": "Chen"
+        },
+        {
+          "id": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correctAnswer": "C",
+      "shortExplanation": "The order must be Ali, Bilal, Chen, so Chen is last.",
+      "fullExplanation": {
+        "correctAnswer": "The order must be Ali, Bilal, Chen, so Chen is last."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Analytical Reasoning",
+        "Ordering",
+        "Hard"
+      ]
+    },
+    {
+      "id": "AR-ORD-010",
+      "skillCategory": "analytical-reasoning",
+      "skill": "Analytical Reasoning",
+      "topic": "Ordering",
+      "subTopic": "Ordering",
+      "level": "Exam Prep",
+      "difficulty": "Hard",
+      "questionType": "Ordering",
+      "questionText": "Ali, Bilal, and Chen stand in a line. Ali is before Bilal. Chen is after Bilal. Who is last?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ali"
+        },
+        {
+          "id": "B",
+          "text": "Bilal"
+        },
+        {
+          "id": "C",
+          "text": "Chen"
+        },
+        {
+          "id": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correctAnswer": "C",
+      "shortExplanation": "The order must be Ali, Bilal, Chen, so Chen is last.",
+      "fullExplanation": {
+        "correctAnswer": "The order must be Ali, Bilal, Chen, so Chen is last."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Analytical Reasoning",
+        "Ordering",
+        "Hard"
+      ]
+    },
+    {
+      "id": "AR-ORD-011",
+      "skillCategory": "analytical-reasoning",
+      "skill": "Analytical Reasoning",
+      "topic": "Ordering",
+      "subTopic": "Ordering",
+      "level": "Exam Prep",
+      "difficulty": "Hard",
+      "questionType": "Ordering",
+      "questionText": "Ali, Bilal, and Chen stand in a line. Ali is before Bilal. Chen is after Bilal. Who is last?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ali"
+        },
+        {
+          "id": "B",
+          "text": "Bilal"
+        },
+        {
+          "id": "C",
+          "text": "Chen"
+        },
+        {
+          "id": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correctAnswer": "C",
+      "shortExplanation": "The order must be Ali, Bilal, Chen, so Chen is last.",
+      "fullExplanation": {
+        "correctAnswer": "The order must be Ali, Bilal, Chen, so Chen is last."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Analytical Reasoning",
+        "Ordering",
+        "Hard"
+      ]
+    },
+    {
+      "id": "AR-ORD-012",
+      "skillCategory": "analytical-reasoning",
+      "skill": "Analytical Reasoning",
+      "topic": "Ordering",
+      "subTopic": "Ordering",
+      "level": "Exam Prep",
+      "difficulty": "Hard",
+      "questionType": "Ordering",
+      "questionText": "Ali, Bilal, and Chen stand in a line. Ali is before Bilal. Chen is after Bilal. Who is last?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ali"
+        },
+        {
+          "id": "B",
+          "text": "Bilal"
+        },
+        {
+          "id": "C",
+          "text": "Chen"
+        },
+        {
+          "id": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correctAnswer": "C",
+      "shortExplanation": "The order must be Ali, Bilal, Chen, so Chen is last.",
+      "fullExplanation": {
+        "correctAnswer": "The order must be Ali, Bilal, Chen, so Chen is last."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Analytical Reasoning",
+        "Ordering",
+        "Hard"
+      ]
+    },
+    {
+      "id": "AR-ORD-013",
+      "skillCategory": "analytical-reasoning",
+      "skill": "Analytical Reasoning",
+      "topic": "Ordering",
+      "subTopic": "Ordering",
+      "level": "Exam Prep",
+      "difficulty": "Hard",
+      "questionType": "Ordering",
+      "questionText": "Ali, Bilal, and Chen stand in a line. Ali is before Bilal. Chen is after Bilal. Who is last?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ali"
+        },
+        {
+          "id": "B",
+          "text": "Bilal"
+        },
+        {
+          "id": "C",
+          "text": "Chen"
+        },
+        {
+          "id": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correctAnswer": "C",
+      "shortExplanation": "The order must be Ali, Bilal, Chen, so Chen is last.",
+      "fullExplanation": {
+        "correctAnswer": "The order must be Ali, Bilal, Chen, so Chen is last."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Analytical Reasoning",
+        "Ordering",
+        "Hard"
+      ]
+    },
+    {
+      "id": "AR-ORD-014",
+      "skillCategory": "analytical-reasoning",
+      "skill": "Analytical Reasoning",
+      "topic": "Ordering",
+      "subTopic": "Ordering",
+      "level": "Exam Prep",
+      "difficulty": "Hard",
+      "questionType": "Ordering",
+      "questionText": "Ali, Bilal, and Chen stand in a line. Ali is before Bilal. Chen is after Bilal. Who is last?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ali"
+        },
+        {
+          "id": "B",
+          "text": "Bilal"
+        },
+        {
+          "id": "C",
+          "text": "Chen"
+        },
+        {
+          "id": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correctAnswer": "C",
+      "shortExplanation": "The order must be Ali, Bilal, Chen, so Chen is last.",
+      "fullExplanation": {
+        "correctAnswer": "The order must be Ali, Bilal, Chen, so Chen is last."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Analytical Reasoning",
+        "Ordering",
+        "Hard"
+      ]
+    },
+    {
+      "id": "AR-ORD-015",
+      "skillCategory": "analytical-reasoning",
+      "skill": "Analytical Reasoning",
+      "topic": "Ordering",
+      "subTopic": "Ordering",
+      "level": "Exam Prep",
+      "difficulty": "Hard",
+      "questionType": "Ordering",
+      "questionText": "Ali, Bilal, and Chen stand in a line. Ali is before Bilal. Chen is after Bilal. Who is last?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ali"
+        },
+        {
+          "id": "B",
+          "text": "Bilal"
+        },
+        {
+          "id": "C",
+          "text": "Chen"
+        },
+        {
+          "id": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correctAnswer": "C",
+      "shortExplanation": "The order must be Ali, Bilal, Chen, so Chen is last.",
+      "fullExplanation": {
+        "correctAnswer": "The order must be Ali, Bilal, Chen, so Chen is last."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Analytical Reasoning",
+        "Ordering",
+        "Hard"
+      ]
+    },
+    {
+      "id": "AR-ORD-016",
+      "skillCategory": "analytical-reasoning",
+      "skill": "Analytical Reasoning",
+      "topic": "Ordering",
+      "subTopic": "Ordering",
+      "level": "Exam Prep",
+      "difficulty": "Hard",
+      "questionType": "Ordering",
+      "questionText": "Ali, Bilal, and Chen stand in a line. Ali is before Bilal. Chen is after Bilal. Who is last?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ali"
+        },
+        {
+          "id": "B",
+          "text": "Bilal"
+        },
+        {
+          "id": "C",
+          "text": "Chen"
+        },
+        {
+          "id": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correctAnswer": "C",
+      "shortExplanation": "The order must be Ali, Bilal, Chen, so Chen is last.",
+      "fullExplanation": {
+        "correctAnswer": "The order must be Ali, Bilal, Chen, so Chen is last."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Analytical Reasoning",
+        "Ordering",
+        "Hard"
+      ]
+    },
+    {
+      "id": "AR-ORD-017",
+      "skillCategory": "analytical-reasoning",
+      "skill": "Analytical Reasoning",
+      "topic": "Ordering",
+      "subTopic": "Ordering",
+      "level": "Exam Prep",
+      "difficulty": "Hard",
+      "questionType": "Ordering",
+      "questionText": "Ali, Bilal, and Chen stand in a line. Ali is before Bilal. Chen is after Bilal. Who is last?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ali"
+        },
+        {
+          "id": "B",
+          "text": "Bilal"
+        },
+        {
+          "id": "C",
+          "text": "Chen"
+        },
+        {
+          "id": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correctAnswer": "C",
+      "shortExplanation": "The order must be Ali, Bilal, Chen, so Chen is last.",
+      "fullExplanation": {
+        "correctAnswer": "The order must be Ali, Bilal, Chen, so Chen is last."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Analytical Reasoning",
+        "Ordering",
+        "Hard"
+      ]
+    },
+    {
+      "id": "AR-ORD-018",
+      "skillCategory": "analytical-reasoning",
+      "skill": "Analytical Reasoning",
+      "topic": "Ordering",
+      "subTopic": "Ordering",
+      "level": "Exam Prep",
+      "difficulty": "Hard",
+      "questionType": "Ordering",
+      "questionText": "Ali, Bilal, and Chen stand in a line. Ali is before Bilal. Chen is after Bilal. Who is last?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ali"
+        },
+        {
+          "id": "B",
+          "text": "Bilal"
+        },
+        {
+          "id": "C",
+          "text": "Chen"
+        },
+        {
+          "id": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correctAnswer": "C",
+      "shortExplanation": "The order must be Ali, Bilal, Chen, so Chen is last.",
+      "fullExplanation": {
+        "correctAnswer": "The order must be Ali, Bilal, Chen, so Chen is last."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Analytical Reasoning",
+        "Ordering",
+        "Hard"
+      ]
+    },
+    {
+      "id": "AR-ORD-019",
+      "skillCategory": "analytical-reasoning",
+      "skill": "Analytical Reasoning",
+      "topic": "Ordering",
+      "subTopic": "Ordering",
+      "level": "Exam Prep",
+      "difficulty": "Hard",
+      "questionType": "Ordering",
+      "questionText": "Ali, Bilal, and Chen stand in a line. Ali is before Bilal. Chen is after Bilal. Who is last?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ali"
+        },
+        {
+          "id": "B",
+          "text": "Bilal"
+        },
+        {
+          "id": "C",
+          "text": "Chen"
+        },
+        {
+          "id": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correctAnswer": "C",
+      "shortExplanation": "The order must be Ali, Bilal, Chen, so Chen is last.",
+      "fullExplanation": {
+        "correctAnswer": "The order must be Ali, Bilal, Chen, so Chen is last."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Analytical Reasoning",
+        "Ordering",
+        "Hard"
+      ]
+    },
+    {
+      "id": "AR-ORD-020",
+      "skillCategory": "analytical-reasoning",
+      "skill": "Analytical Reasoning",
+      "topic": "Ordering",
+      "subTopic": "Ordering",
+      "level": "Exam Prep",
+      "difficulty": "Hard",
+      "questionType": "Ordering",
+      "questionText": "Ali, Bilal, and Chen stand in a line. Ali is before Bilal. Chen is after Bilal. Who is last?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ali"
+        },
+        {
+          "id": "B",
+          "text": "Bilal"
+        },
+        {
+          "id": "C",
+          "text": "Chen"
+        },
+        {
+          "id": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correctAnswer": "C",
+      "shortExplanation": "The order must be Ali, Bilal, Chen, so Chen is last.",
+      "fullExplanation": {
+        "correctAnswer": "The order must be Ali, Bilal, Chen, so Chen is last."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Analytical Reasoning",
+        "Ordering",
+        "Hard"
+      ]
+    }
+  ]
+}

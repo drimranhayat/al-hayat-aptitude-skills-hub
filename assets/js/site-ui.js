@@ -1,46 +1,15 @@
-(function () {
-  const $ = (selector, root = document) => root.querySelector(selector);
-  const $$ = (selector, root = document) => Array.from(root.querySelectorAll(selector));
+import { fixInternalLinks } from './path-utils.js';
 
-  function setYear() {
-    const year = $("[data-year]");
-    if (year) year.textContent = new Date().getFullYear();
-  }
-
-  function setupBottomMore() {
-    const more = $("[data-bottom-more]");
-    const panel = $("[data-more-panel]");
-    if (!more || !panel) return;
-
-    more.addEventListener("click", () => {
-      const open = panel.classList.toggle("is-open");
-      more.setAttribute("aria-expanded", String(open));
-    });
-
-    document.addEventListener("click", (event) => {
-      if (!panel.contains(event.target) && !more.contains(event.target)) {
-        panel.classList.remove("is-open");
-        more.setAttribute("aria-expanded", "false");
-      }
-    });
-  }
-
-  function setupGenericTabs() {
-    $$('[data-tab-button]').forEach((button) => {
-      button.addEventListener('click', () => {
-        const group = button.dataset.tabGroup || 'default';
-        const target = button.dataset.tabButton;
-        $$(`[data-tab-button][data-tab-group="${group}"]`).forEach((btn) => btn.classList.toggle('is-active', btn === button));
-        $$(`[data-tab-panel][data-tab-group="${group}"]`).forEach((panel) => {
-          panel.hidden = panel.dataset.tabPanel !== target;
-        });
-      });
-    });
-  }
-
-  document.addEventListener("DOMContentLoaded", () => {
-    setYear();
-    setupBottomMore();
-    setupGenericTabs();
+export function initSiteUI(){
+  fixInternalLinks(document);
+  const btn=document.querySelector('[data-menu-btn]');
+  const nav=document.querySelector('[data-navlinks]');
+  btn?.addEventListener('click',()=>nav?.classList.toggle('open'));
+  const path = location.pathname.replace(/\/$/,'');
+  document.querySelectorAll('.navlinks a').forEach(a=>{
+    const href=a.href.replace(/\/$/,'');
+    if(href && path && href.endsWith(path.split('/').pop() || 'index.html')) a.classList.add('active');
   });
-})();
+}
+
+document.addEventListener('DOMContentLoaded', initSiteUI);

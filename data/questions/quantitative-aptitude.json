@@ -1,0 +1,1444 @@
+{
+  "questions": [
+    {
+      "id": "QT-PER-001",
+      "skillCategory": "quantitative-aptitude",
+      "skill": "Quantitative Aptitude",
+      "topic": "Percentages",
+      "subTopic": "Percentages",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Percentages",
+      "questionText": "A number 21 is increased by 15%. What is the new value?",
+      "options": [
+        {
+          "id": "A",
+          "text": "24"
+        },
+        {
+          "id": "B",
+          "text": "36"
+        },
+        {
+          "id": "C",
+          "text": "6"
+        },
+        {
+          "id": "D",
+          "text": "140"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Increase by 15% means multiply by 1.15; 21 × 1.15 = 24.",
+      "fullExplanation": {
+        "correctAnswer": "Increase by 15% means multiply by 1.15; 21 × 1.15 = 24."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Quantitative Aptitude",
+        "Percentages",
+        "Medium"
+      ]
+    },
+    {
+      "id": "QT-PER-002",
+      "skillCategory": "quantitative-aptitude",
+      "skill": "Quantitative Aptitude",
+      "topic": "Percentages",
+      "subTopic": "Percentages",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Percentages",
+      "questionText": "A number 22 is increased by 20%. What is the new value?",
+      "options": [
+        {
+          "id": "A",
+          "text": "26"
+        },
+        {
+          "id": "B",
+          "text": "42"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "110"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Increase by 20% means multiply by 1.20; 22 × 1.20 = 26.",
+      "fullExplanation": {
+        "correctAnswer": "Increase by 20% means multiply by 1.20; 22 × 1.20 = 26."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Quantitative Aptitude",
+        "Percentages",
+        "Medium"
+      ]
+    },
+    {
+      "id": "QT-PER-003",
+      "skillCategory": "quantitative-aptitude",
+      "skill": "Quantitative Aptitude",
+      "topic": "Percentages",
+      "subTopic": "Percentages",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Percentages",
+      "questionText": "A number 23 is increased by 25%. What is the new value?",
+      "options": [
+        {
+          "id": "A",
+          "text": "28"
+        },
+        {
+          "id": "B",
+          "text": "48"
+        },
+        {
+          "id": "C",
+          "text": "-2"
+        },
+        {
+          "id": "D",
+          "text": "92"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Increase by 25% means multiply by 1.25; 23 × 1.25 = 28.",
+      "fullExplanation": {
+        "correctAnswer": "Increase by 25% means multiply by 1.25; 23 × 1.25 = 28."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Quantitative Aptitude",
+        "Percentages",
+        "Medium"
+      ]
+    },
+    {
+      "id": "QT-PER-004",
+      "skillCategory": "quantitative-aptitude",
+      "skill": "Quantitative Aptitude",
+      "topic": "Percentages",
+      "subTopic": "Percentages",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Percentages",
+      "questionText": "A number 24 is increased by 30%. What is the new value?",
+      "options": [
+        {
+          "id": "A",
+          "text": "31"
+        },
+        {
+          "id": "B",
+          "text": "54"
+        },
+        {
+          "id": "C",
+          "text": "-6"
+        },
+        {
+          "id": "D",
+          "text": "80"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Increase by 30% means multiply by 1.30; 24 × 1.30 = 31.",
+      "fullExplanation": {
+        "correctAnswer": "Increase by 30% means multiply by 1.30; 24 × 1.30 = 31."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Quantitative Aptitude",
+        "Percentages",
+        "Medium"
+      ]
+    },
+    {
+      "id": "QT-PER-005",
+      "skillCategory": "quantitative-aptitude",
+      "skill": "Quantitative Aptitude",
+      "topic": "Percentages",
+      "subTopic": "Percentages",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Percentages",
+      "questionText": "A number 25 is increased by 10%. What is the new value?",
+      "options": [
+        {
+          "id": "A",
+          "text": "27"
+        },
+        {
+          "id": "B",
+          "text": "35"
+        },
+        {
+          "id": "C",
+          "text": "15"
+        },
+        {
+          "id": "D",
+          "text": "250"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Increase by 10% means multiply by 1.10; 25 × 1.10 = 27.",
+      "fullExplanation": {
+        "correctAnswer": "Increase by 10% means multiply by 1.10; 25 × 1.10 = 27."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Quantitative Aptitude",
+        "Percentages",
+        "Medium"
+      ]
+    },
+    {
+      "id": "QT-PER-006",
+      "skillCategory": "quantitative-aptitude",
+      "skill": "Quantitative Aptitude",
+      "topic": "Percentages",
+      "subTopic": "Percentages",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Percentages",
+      "questionText": "A number 26 is increased by 15%. What is the new value?",
+      "options": [
+        {
+          "id": "A",
+          "text": "29"
+        },
+        {
+          "id": "B",
+          "text": "41"
+        },
+        {
+          "id": "C",
+          "text": "11"
+        },
+        {
+          "id": "D",
+          "text": "173"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Increase by 15% means multiply by 1.15; 26 × 1.15 = 29.",
+      "fullExplanation": {
+        "correctAnswer": "Increase by 15% means multiply by 1.15; 26 × 1.15 = 29."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Quantitative Aptitude",
+        "Percentages",
+        "Medium"
+      ]
+    },
+    {
+      "id": "QT-PER-007",
+      "skillCategory": "quantitative-aptitude",
+      "skill": "Quantitative Aptitude",
+      "topic": "Percentages",
+      "subTopic": "Percentages",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Percentages",
+      "questionText": "A number 27 is increased by 20%. What is the new value?",
+      "options": [
+        {
+          "id": "A",
+          "text": "32"
+        },
+        {
+          "id": "B",
+          "text": "47"
+        },
+        {
+          "id": "C",
+          "text": "7"
+        },
+        {
+          "id": "D",
+          "text": "135"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Increase by 20% means multiply by 1.20; 27 × 1.20 = 32.",
+      "fullExplanation": {
+        "correctAnswer": "Increase by 20% means multiply by 1.20; 27 × 1.20 = 32."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Quantitative Aptitude",
+        "Percentages",
+        "Medium"
+      ]
+    },
+    {
+      "id": "QT-PER-008",
+      "skillCategory": "quantitative-aptitude",
+      "skill": "Quantitative Aptitude",
+      "topic": "Percentages",
+      "subTopic": "Percentages",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Percentages",
+      "questionText": "A number 28 is increased by 25%. What is the new value?",
+      "options": [
+        {
+          "id": "A",
+          "text": "35"
+        },
+        {
+          "id": "B",
+          "text": "53"
+        },
+        {
+          "id": "C",
+          "text": "3"
+        },
+        {
+          "id": "D",
+          "text": "112"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Increase by 25% means multiply by 1.25; 28 × 1.25 = 35.",
+      "fullExplanation": {
+        "correctAnswer": "Increase by 25% means multiply by 1.25; 28 × 1.25 = 35."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Quantitative Aptitude",
+        "Percentages",
+        "Medium"
+      ]
+    },
+    {
+      "id": "QT-PER-009",
+      "skillCategory": "quantitative-aptitude",
+      "skill": "Quantitative Aptitude",
+      "topic": "Percentages",
+      "subTopic": "Percentages",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Percentages",
+      "questionText": "A number 29 is increased by 30%. What is the new value?",
+      "options": [
+        {
+          "id": "A",
+          "text": "37"
+        },
+        {
+          "id": "B",
+          "text": "59"
+        },
+        {
+          "id": "C",
+          "text": "-1"
+        },
+        {
+          "id": "D",
+          "text": "96"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Increase by 30% means multiply by 1.30; 29 × 1.30 = 37.",
+      "fullExplanation": {
+        "correctAnswer": "Increase by 30% means multiply by 1.30; 29 × 1.30 = 37."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Quantitative Aptitude",
+        "Percentages",
+        "Medium"
+      ]
+    },
+    {
+      "id": "QT-PER-010",
+      "skillCategory": "quantitative-aptitude",
+      "skill": "Quantitative Aptitude",
+      "topic": "Percentages",
+      "subTopic": "Percentages",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Percentages",
+      "questionText": "A number 30 is increased by 10%. What is the new value?",
+      "options": [
+        {
+          "id": "A",
+          "text": "33"
+        },
+        {
+          "id": "B",
+          "text": "40"
+        },
+        {
+          "id": "C",
+          "text": "20"
+        },
+        {
+          "id": "D",
+          "text": "300"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Increase by 10% means multiply by 1.10; 30 × 1.10 = 33.",
+      "fullExplanation": {
+        "correctAnswer": "Increase by 10% means multiply by 1.10; 30 × 1.10 = 33."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Quantitative Aptitude",
+        "Percentages",
+        "Medium"
+      ]
+    },
+    {
+      "id": "QT-PER-011",
+      "skillCategory": "quantitative-aptitude",
+      "skill": "Quantitative Aptitude",
+      "topic": "Percentages",
+      "subTopic": "Percentages",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Percentages",
+      "questionText": "A number 31 is increased by 15%. What is the new value?",
+      "options": [
+        {
+          "id": "A",
+          "text": "35"
+        },
+        {
+          "id": "B",
+          "text": "46"
+        },
+        {
+          "id": "C",
+          "text": "16"
+        },
+        {
+          "id": "D",
+          "text": "206"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Increase by 15% means multiply by 1.15; 31 × 1.15 = 35.",
+      "fullExplanation": {
+        "correctAnswer": "Increase by 15% means multiply by 1.15; 31 × 1.15 = 35."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Quantitative Aptitude",
+        "Percentages",
+        "Medium"
+      ]
+    },
+    {
+      "id": "QT-PER-012",
+      "skillCategory": "quantitative-aptitude",
+      "skill": "Quantitative Aptitude",
+      "topic": "Percentages",
+      "subTopic": "Percentages",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Percentages",
+      "questionText": "A number 32 is increased by 20%. What is the new value?",
+      "options": [
+        {
+          "id": "A",
+          "text": "38"
+        },
+        {
+          "id": "B",
+          "text": "52"
+        },
+        {
+          "id": "C",
+          "text": "12"
+        },
+        {
+          "id": "D",
+          "text": "160"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Increase by 20% means multiply by 1.20; 32 × 1.20 = 38.",
+      "fullExplanation": {
+        "correctAnswer": "Increase by 20% means multiply by 1.20; 32 × 1.20 = 38."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Quantitative Aptitude",
+        "Percentages",
+        "Medium"
+      ]
+    },
+    {
+      "id": "QT-PER-013",
+      "skillCategory": "quantitative-aptitude",
+      "skill": "Quantitative Aptitude",
+      "topic": "Percentages",
+      "subTopic": "Percentages",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Percentages",
+      "questionText": "A number 33 is increased by 25%. What is the new value?",
+      "options": [
+        {
+          "id": "A",
+          "text": "41"
+        },
+        {
+          "id": "B",
+          "text": "58"
+        },
+        {
+          "id": "C",
+          "text": "8"
+        },
+        {
+          "id": "D",
+          "text": "132"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Increase by 25% means multiply by 1.25; 33 × 1.25 = 41.",
+      "fullExplanation": {
+        "correctAnswer": "Increase by 25% means multiply by 1.25; 33 × 1.25 = 41."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Quantitative Aptitude",
+        "Percentages",
+        "Medium"
+      ]
+    },
+    {
+      "id": "QT-PER-014",
+      "skillCategory": "quantitative-aptitude",
+      "skill": "Quantitative Aptitude",
+      "topic": "Percentages",
+      "subTopic": "Percentages",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Percentages",
+      "questionText": "A number 34 is increased by 30%. What is the new value?",
+      "options": [
+        {
+          "id": "A",
+          "text": "44"
+        },
+        {
+          "id": "B",
+          "text": "64"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "113"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Increase by 30% means multiply by 1.30; 34 × 1.30 = 44.",
+      "fullExplanation": {
+        "correctAnswer": "Increase by 30% means multiply by 1.30; 34 × 1.30 = 44."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Quantitative Aptitude",
+        "Percentages",
+        "Medium"
+      ]
+    },
+    {
+      "id": "QT-PER-015",
+      "skillCategory": "quantitative-aptitude",
+      "skill": "Quantitative Aptitude",
+      "topic": "Percentages",
+      "subTopic": "Percentages",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Percentages",
+      "questionText": "A number 35 is increased by 10%. What is the new value?",
+      "options": [
+        {
+          "id": "A",
+          "text": "38"
+        },
+        {
+          "id": "B",
+          "text": "45"
+        },
+        {
+          "id": "C",
+          "text": "25"
+        },
+        {
+          "id": "D",
+          "text": "350"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Increase by 10% means multiply by 1.10; 35 × 1.10 = 38.",
+      "fullExplanation": {
+        "correctAnswer": "Increase by 10% means multiply by 1.10; 35 × 1.10 = 38."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Quantitative Aptitude",
+        "Percentages",
+        "Medium"
+      ]
+    },
+    {
+      "id": "QT-PER-016",
+      "skillCategory": "quantitative-aptitude",
+      "skill": "Quantitative Aptitude",
+      "topic": "Percentages",
+      "subTopic": "Percentages",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Percentages",
+      "questionText": "A number 36 is increased by 15%. What is the new value?",
+      "options": [
+        {
+          "id": "A",
+          "text": "41"
+        },
+        {
+          "id": "B",
+          "text": "51"
+        },
+        {
+          "id": "C",
+          "text": "21"
+        },
+        {
+          "id": "D",
+          "text": "240"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Increase by 15% means multiply by 1.15; 36 × 1.15 = 41.",
+      "fullExplanation": {
+        "correctAnswer": "Increase by 15% means multiply by 1.15; 36 × 1.15 = 41."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Quantitative Aptitude",
+        "Percentages",
+        "Medium"
+      ]
+    },
+    {
+      "id": "QT-PER-017",
+      "skillCategory": "quantitative-aptitude",
+      "skill": "Quantitative Aptitude",
+      "topic": "Percentages",
+      "subTopic": "Percentages",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Percentages",
+      "questionText": "A number 37 is increased by 20%. What is the new value?",
+      "options": [
+        {
+          "id": "A",
+          "text": "44"
+        },
+        {
+          "id": "B",
+          "text": "57"
+        },
+        {
+          "id": "C",
+          "text": "17"
+        },
+        {
+          "id": "D",
+          "text": "185"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Increase by 20% means multiply by 1.20; 37 × 1.20 = 44.",
+      "fullExplanation": {
+        "correctAnswer": "Increase by 20% means multiply by 1.20; 37 × 1.20 = 44."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Quantitative Aptitude",
+        "Percentages",
+        "Medium"
+      ]
+    },
+    {
+      "id": "QT-PER-018",
+      "skillCategory": "quantitative-aptitude",
+      "skill": "Quantitative Aptitude",
+      "topic": "Percentages",
+      "subTopic": "Percentages",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Percentages",
+      "questionText": "A number 38 is increased by 25%. What is the new value?",
+      "options": [
+        {
+          "id": "A",
+          "text": "47"
+        },
+        {
+          "id": "B",
+          "text": "63"
+        },
+        {
+          "id": "C",
+          "text": "13"
+        },
+        {
+          "id": "D",
+          "text": "152"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Increase by 25% means multiply by 1.25; 38 × 1.25 = 47.",
+      "fullExplanation": {
+        "correctAnswer": "Increase by 25% means multiply by 1.25; 38 × 1.25 = 47."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Quantitative Aptitude",
+        "Percentages",
+        "Medium"
+      ]
+    },
+    {
+      "id": "QT-PER-019",
+      "skillCategory": "quantitative-aptitude",
+      "skill": "Quantitative Aptitude",
+      "topic": "Percentages",
+      "subTopic": "Percentages",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Percentages",
+      "questionText": "A number 39 is increased by 30%. What is the new value?",
+      "options": [
+        {
+          "id": "A",
+          "text": "50"
+        },
+        {
+          "id": "B",
+          "text": "69"
+        },
+        {
+          "id": "C",
+          "text": "9"
+        },
+        {
+          "id": "D",
+          "text": "130"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Increase by 30% means multiply by 1.30; 39 × 1.30 = 50.",
+      "fullExplanation": {
+        "correctAnswer": "Increase by 30% means multiply by 1.30; 39 × 1.30 = 50."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Quantitative Aptitude",
+        "Percentages",
+        "Medium"
+      ]
+    },
+    {
+      "id": "QT-PER-020",
+      "skillCategory": "quantitative-aptitude",
+      "skill": "Quantitative Aptitude",
+      "topic": "Percentages",
+      "subTopic": "Percentages",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Percentages",
+      "questionText": "A number 40 is increased by 10%. What is the new value?",
+      "options": [
+        {
+          "id": "A",
+          "text": "44"
+        },
+        {
+          "id": "B",
+          "text": "50"
+        },
+        {
+          "id": "C",
+          "text": "30"
+        },
+        {
+          "id": "D",
+          "text": "400"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Increase by 10% means multiply by 1.10; 40 × 1.10 = 44.",
+      "fullExplanation": {
+        "correctAnswer": "Increase by 10% means multiply by 1.10; 40 × 1.10 = 44."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Quantitative Aptitude",
+        "Percentages",
+        "Medium"
+      ]
+    },
+    {
+      "id": "QT-PER-021",
+      "skillCategory": "quantitative-aptitude",
+      "skill": "Quantitative Aptitude",
+      "topic": "Percentages",
+      "subTopic": "Percentages",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Percentages",
+      "questionText": "A number 41 is increased by 15%. What is the new value?",
+      "options": [
+        {
+          "id": "A",
+          "text": "47"
+        },
+        {
+          "id": "B",
+          "text": "56"
+        },
+        {
+          "id": "C",
+          "text": "26"
+        },
+        {
+          "id": "D",
+          "text": "273"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Increase by 15% means multiply by 1.15; 41 × 1.15 = 47.",
+      "fullExplanation": {
+        "correctAnswer": "Increase by 15% means multiply by 1.15; 41 × 1.15 = 47."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Quantitative Aptitude",
+        "Percentages",
+        "Medium"
+      ]
+    },
+    {
+      "id": "QT-PER-022",
+      "skillCategory": "quantitative-aptitude",
+      "skill": "Quantitative Aptitude",
+      "topic": "Percentages",
+      "subTopic": "Percentages",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Percentages",
+      "questionText": "A number 42 is increased by 20%. What is the new value?",
+      "options": [
+        {
+          "id": "A",
+          "text": "50"
+        },
+        {
+          "id": "B",
+          "text": "62"
+        },
+        {
+          "id": "C",
+          "text": "22"
+        },
+        {
+          "id": "D",
+          "text": "210"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Increase by 20% means multiply by 1.20; 42 × 1.20 = 50.",
+      "fullExplanation": {
+        "correctAnswer": "Increase by 20% means multiply by 1.20; 42 × 1.20 = 50."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Quantitative Aptitude",
+        "Percentages",
+        "Medium"
+      ]
+    },
+    {
+      "id": "QT-PER-023",
+      "skillCategory": "quantitative-aptitude",
+      "skill": "Quantitative Aptitude",
+      "topic": "Percentages",
+      "subTopic": "Percentages",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Percentages",
+      "questionText": "A number 43 is increased by 25%. What is the new value?",
+      "options": [
+        {
+          "id": "A",
+          "text": "53"
+        },
+        {
+          "id": "B",
+          "text": "68"
+        },
+        {
+          "id": "C",
+          "text": "18"
+        },
+        {
+          "id": "D",
+          "text": "172"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Increase by 25% means multiply by 1.25; 43 × 1.25 = 53.",
+      "fullExplanation": {
+        "correctAnswer": "Increase by 25% means multiply by 1.25; 43 × 1.25 = 53."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Quantitative Aptitude",
+        "Percentages",
+        "Medium"
+      ]
+    },
+    {
+      "id": "QT-PER-024",
+      "skillCategory": "quantitative-aptitude",
+      "skill": "Quantitative Aptitude",
+      "topic": "Percentages",
+      "subTopic": "Percentages",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Percentages",
+      "questionText": "A number 44 is increased by 30%. What is the new value?",
+      "options": [
+        {
+          "id": "A",
+          "text": "57"
+        },
+        {
+          "id": "B",
+          "text": "74"
+        },
+        {
+          "id": "C",
+          "text": "14"
+        },
+        {
+          "id": "D",
+          "text": "146"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Increase by 30% means multiply by 1.30; 44 × 1.30 = 57.",
+      "fullExplanation": {
+        "correctAnswer": "Increase by 30% means multiply by 1.30; 44 × 1.30 = 57."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Quantitative Aptitude",
+        "Percentages",
+        "Medium"
+      ]
+    },
+    {
+      "id": "QT-PER-025",
+      "skillCategory": "quantitative-aptitude",
+      "skill": "Quantitative Aptitude",
+      "topic": "Percentages",
+      "subTopic": "Percentages",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Percentages",
+      "questionText": "A number 45 is increased by 10%. What is the new value?",
+      "options": [
+        {
+          "id": "A",
+          "text": "49"
+        },
+        {
+          "id": "B",
+          "text": "55"
+        },
+        {
+          "id": "C",
+          "text": "35"
+        },
+        {
+          "id": "D",
+          "text": "450"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Increase by 10% means multiply by 1.10; 45 × 1.10 = 49.",
+      "fullExplanation": {
+        "correctAnswer": "Increase by 10% means multiply by 1.10; 45 × 1.10 = 49."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Quantitative Aptitude",
+        "Percentages",
+        "Medium"
+      ]
+    },
+    {
+      "id": "QT-PER-026",
+      "skillCategory": "quantitative-aptitude",
+      "skill": "Quantitative Aptitude",
+      "topic": "Percentages",
+      "subTopic": "Percentages",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Percentages",
+      "questionText": "A number 46 is increased by 15%. What is the new value?",
+      "options": [
+        {
+          "id": "A",
+          "text": "52"
+        },
+        {
+          "id": "B",
+          "text": "61"
+        },
+        {
+          "id": "C",
+          "text": "31"
+        },
+        {
+          "id": "D",
+          "text": "306"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Increase by 15% means multiply by 1.15; 46 × 1.15 = 52.",
+      "fullExplanation": {
+        "correctAnswer": "Increase by 15% means multiply by 1.15; 46 × 1.15 = 52."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Quantitative Aptitude",
+        "Percentages",
+        "Medium"
+      ]
+    },
+    {
+      "id": "QT-PER-027",
+      "skillCategory": "quantitative-aptitude",
+      "skill": "Quantitative Aptitude",
+      "topic": "Percentages",
+      "subTopic": "Percentages",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Percentages",
+      "questionText": "A number 47 is increased by 20%. What is the new value?",
+      "options": [
+        {
+          "id": "A",
+          "text": "56"
+        },
+        {
+          "id": "B",
+          "text": "67"
+        },
+        {
+          "id": "C",
+          "text": "27"
+        },
+        {
+          "id": "D",
+          "text": "235"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Increase by 20% means multiply by 1.20; 47 × 1.20 = 56.",
+      "fullExplanation": {
+        "correctAnswer": "Increase by 20% means multiply by 1.20; 47 × 1.20 = 56."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Quantitative Aptitude",
+        "Percentages",
+        "Medium"
+      ]
+    },
+    {
+      "id": "QT-PER-028",
+      "skillCategory": "quantitative-aptitude",
+      "skill": "Quantitative Aptitude",
+      "topic": "Percentages",
+      "subTopic": "Percentages",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Percentages",
+      "questionText": "A number 48 is increased by 25%. What is the new value?",
+      "options": [
+        {
+          "id": "A",
+          "text": "60"
+        },
+        {
+          "id": "B",
+          "text": "73"
+        },
+        {
+          "id": "C",
+          "text": "23"
+        },
+        {
+          "id": "D",
+          "text": "192"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Increase by 25% means multiply by 1.25; 48 × 1.25 = 60.",
+      "fullExplanation": {
+        "correctAnswer": "Increase by 25% means multiply by 1.25; 48 × 1.25 = 60."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Quantitative Aptitude",
+        "Percentages",
+        "Medium"
+      ]
+    },
+    {
+      "id": "QT-PER-029",
+      "skillCategory": "quantitative-aptitude",
+      "skill": "Quantitative Aptitude",
+      "topic": "Percentages",
+      "subTopic": "Percentages",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Percentages",
+      "questionText": "A number 49 is increased by 30%. What is the new value?",
+      "options": [
+        {
+          "id": "A",
+          "text": "63"
+        },
+        {
+          "id": "B",
+          "text": "79"
+        },
+        {
+          "id": "C",
+          "text": "19"
+        },
+        {
+          "id": "D",
+          "text": "163"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Increase by 30% means multiply by 1.30; 49 × 1.30 = 63.",
+      "fullExplanation": {
+        "correctAnswer": "Increase by 30% means multiply by 1.30; 49 × 1.30 = 63."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Quantitative Aptitude",
+        "Percentages",
+        "Medium"
+      ]
+    },
+    {
+      "id": "QT-PER-030",
+      "skillCategory": "quantitative-aptitude",
+      "skill": "Quantitative Aptitude",
+      "topic": "Percentages",
+      "subTopic": "Percentages",
+      "level": "Exam Prep",
+      "difficulty": "Medium",
+      "questionType": "Percentages",
+      "questionText": "A number 50 is increased by 10%. What is the new value?",
+      "options": [
+        {
+          "id": "A",
+          "text": "55"
+        },
+        {
+          "id": "B",
+          "text": "60"
+        },
+        {
+          "id": "C",
+          "text": "40"
+        },
+        {
+          "id": "D",
+          "text": "500"
+        }
+      ],
+      "correctAnswer": "A",
+      "shortExplanation": "Increase by 10% means multiply by 1.10; 50 × 1.10 = 55.",
+      "fullExplanation": {
+        "correctAnswer": "Increase by 10% means multiply by 1.10; 50 × 1.10 = 55."
+      },
+      "commonMistake": "Do not rely on sound or guesswork; check the exact logical relation.",
+      "similarQuestionIds": [],
+      "learnMoreUrl": "practice/index.html",
+      "examTags": [
+        "FAST",
+        "NTS",
+        "GAT"
+      ],
+      "status": "Ready",
+      "keywords": [
+        "Quantitative Aptitude",
+        "Percentages",
+        "Medium"
+      ]
+    }
+  ]
+}
