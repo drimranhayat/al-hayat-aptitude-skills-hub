@@ -1,1 +1,49 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Progress | Al-Hayat Aptitude Skills Hub</title><meta name="description" content="World-class aptitude preparation for FAST, NTS, GAT, HAT, jobs, scholarships and competitive exams."><link rel="stylesheet" href="/al-hayat-aptitude-skills-hub/assets/css/style.css"></head><body><div data-header></div><main class="section"><div class="wrap"><h1 class="h1">Progress Dashboard</h1><p class="lead">Progress is stored in your browser using localStorage. No login required.</p><div class="scorebox"><div class="mini"><strong id="pTotal">0</strong>Total Attempts</div><div class="mini"><strong id="pCorrect">0</strong>Correct</div><div class="mini"><strong id="pWrong">0</strong>Wrong</div><div class="mini"><strong id="pAccuracy">0%</strong>Accuracy</div></div><button class="btn secondary" id="clearProgress">Clear Progress</button><div class="card"><h2>Recent Attempts</h2><table class="table"><thead><tr><th>ID</th><th>Skill</th><th>Difficulty</th><th>Result</th><th>Time</th></tr></thead><tbody data-progress-table></tbody></table></div></div></main><div data-footer></div><script type="module" src="/al-hayat-aptitude-skills-hub/assets/js/app.js"></script><script type="module" src="/al-hayat-aptitude-skills-hub/assets/js/progress.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Progress | Al-Hayat Aptitude</title>
+    <meta name="description" content="Track aptitude practice progress locally in the browser.">
+    <link rel="stylesheet" href="/al-hayat-aptitude-skills-hub/assets/css/style.css">
+  </head>
+  <body>
+    <div data-header></div>
+    <main class="section">
+      <div class="wrap page-hero">
+        <span class="eyebrow">Revision tracker</span>
+        <h1 class="h1">Progress that stays simple.</h1>
+        <p class="lead">Your practice attempts are saved in this browser. Use them to identify weak areas and plan revision.</p>
+      </div>
+      <section class="wrap">
+        <div class="scorebox">
+          <div class="mini"><strong id="pAttempts">0</strong><span>Attempts</span></div>
+          <div class="mini"><strong id="pCorrect">0</strong><span>Correct</span></div>
+          <div class="mini"><strong id="pWrong">0</strong><span>Wrong</span></div>
+          <div class="mini"><strong id="pAccuracy">0%</strong><span>Accuracy</span></div>
+        </div>
+        <div class="panel strategy-panel">
+          <h2>Best next action</h2>
+          <p class="muted" id="progressAdvice">Start practice to build your progress record.</p>
+          <a class="btn primary" href="/al-hayat-aptitude-skills-hub/practice/index.html">Continue practice</a>
+        </div>
+      </section>
+    </main>
+    <div data-footer></div>
+    <script type="module" src="/al-hayat-aptitude-skills-hub/assets/js/app.js"></script>
+    <script>
+      const records = JSON.parse(localStorage.getItem('ah_aptitude_progress_v2') || localStorage.getItem('ah_aptitude_progress_v1') || '[]');
+      const attempts = records.length;
+      const correct = records.filter((r)=>r.correct).length;
+      const wrong = Math.max(0, attempts - correct);
+      const accuracy = attempts ? Math.round((correct / attempts) * 100) : 0;
+      document.getElementById('pAttempts').textContent = attempts;
+      document.getElementById('pCorrect').textContent = correct;
+      document.getElementById('pWrong').textContent = wrong;
+      document.getElementById('pAccuracy').textContent = accuracy + '%';
+      document.getElementById('progressAdvice').textContent = attempts
+        ? 'Revise wrong answers first, then attempt a fresh filtered practice set.'
+        : 'Start with 20 questions from one skill area. Consistency matters more than speed at the beginning.';
+    </script>
+  </body>
+</html>

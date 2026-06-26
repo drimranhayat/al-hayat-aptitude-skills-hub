@@ -1,1 +1,51 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Search | Al-Hayat Aptitude Skills Hub</title><meta name="description" content="World-class aptitude preparation for FAST, NTS, GAT, HAT, jobs, scholarships and competitive exams."><link rel="stylesheet" href="/al-hayat-aptitude-skills-hub/assets/css/style.css"></head><body><div data-header></div><main class="section"><div class="wrap"><h1 class="h1">Search the Question Bank</h1><p class="lead">Search by topic, keyword, difficulty, or exam tag.</p><div class="card"><input id="siteSearch" placeholder="Try: synonym, percentage, FAST, series" style="width:100%;padding:15px;border-radius:16px;border:1px solid var(--border)"><div class="search-results" data-search-results></div></div></div></main><div data-footer></div><script type="module" src="/al-hayat-aptitude-skills-hub/assets/js/app.js"></script><script type="module" src="/al-hayat-aptitude-skills-hub/assets/js/search.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Search | Al-Hayat Aptitude</title>
+    <meta name="description" content="Search aptitude questions and skill areas.">
+    <link rel="stylesheet" href="/al-hayat-aptitude-skills-hub/assets/css/style.css">
+  </head>
+  <body>
+    <div data-header></div>
+    <main class="section">
+      <div class="wrap page-hero">
+        <span class="eyebrow">Find quickly</span>
+        <h1 class="h1">Search the question bank.</h1>
+        <p class="lead">Search by skill, topic, exam tag, keyword or question text.</p>
+      </div>
+      <section class="wrap">
+        <div class="panel strategy-panel">
+          <div class="field">
+            <label for="searchBox">Search</label>
+            <input id="searchBox" placeholder="synonym, ratio, FAST, analogy...">
+          </div>
+          <div class="search-results" id="searchResults"></div>
+        </div>
+      </section>
+    </main>
+    <div data-footer></div>
+    <script type="module" src="/al-hayat-aptitude-skills-hub/assets/js/app.js"></script>
+    <script type="module">
+      import { loadQuestionBank } from '/al-hayat-aptitude-skills-hub/assets/js/data-loader.js';
+      const box = document.getElementById('searchBox');
+      const results = document.getElementById('searchResults');
+      let questions = [];
+      function render(){
+        const q = box.value.toLowerCase().trim();
+        if(!q){ results.innerHTML = '<p class="muted">Type a keyword to search.</p>'; return; }
+        const matches = questions.filter((item)=>{
+          const hay = [item.questionText,item.skill,item.skillCategory,item.topic,item.questionType,(item.examTags||[]).join(' ')].join(' ').toLowerCase();
+          return hay.includes(q);
+        }).slice(0,20);
+        results.innerHTML = matches.length ? matches.map((item)=>`
+          <article class="result"><strong>${item.questionText}</strong><p class="muted">${item.skill || item.skillCategory || 'Aptitude'} • ${item.difficulty || 'Practice'}</p></article>
+        `).join('') : '<p class="notice">No matching questions found.</p>';
+      }
+      questions = await loadQuestionBank();
+      results.innerHTML = '<p class="muted">Type a keyword to search.</p>';
+      box.addEventListener('input', render);
+    </script>
+  </body>
+</html>
